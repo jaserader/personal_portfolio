@@ -1,0 +1,89 @@
+@import "../../dist/bower_components/bourbon/app/assets/stylesheets/_bourbon.scss";
+@import "../../dist/bower_components/neat/app/assets/stylesheets/_neat.scss";
+// @import "../../dist/bower_components/normalize-css/normalize.css";
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+body{
+  @include outer-container(100%);
+  background: #0B2540;
+  height: 100%;
+
+  #app{
+    div{
+
+    #homepage{
+      section{
+
+        #logo{
+          @include span-columns(9.2);
+          @include shift(1.4);
+          height: 336px;
+          background: #0B2540 url('../../../assets/nameLogo.svg') no-repeat 0px 0px;
+          margin-top: 30px;
+          }
+
+        #jobTitle{
+          @include span-columns(9);
+          @include shift(4);
+          color: #fff;
+          font-size: 50px;
+          font-weight: lighter;
+        }
+
+        #contactNav{
+          @include span-columns(12);
+
+          a{
+            @include span-columns(3);
+            text-decoration: none;
+            color: #fff;
+            height: 25px;
+            margin-top: 15px;
+            font-size: 30px;
+            margin-right: 0;
+
+            &:first-of-type{
+              @include shift(3.7);
+            }
+
+            &:hover{
+              color: red;
+            }
+
+            i{
+              margin-right: 10px;
+              font-size: 30px;
+            }
+          }
+        }
+
+        #enterBtn{
+          @include span-columns(2);
+          @include shift(5);
+          margin-top: 70px;
+          padding-left: 65px;
+          padding-top: 8px;
+          text-decoration: none;
+          font-size: 35px;
+          height: 60px;
+          color: #fff;
+          border: #fff 2px solid;
+          border-radius: 3px;
+
+          &:hover{
+            color: red;
+            border: red 2px solid;
+          }
+        }
+
+        }
+      }
+
+    }
+  }
+}

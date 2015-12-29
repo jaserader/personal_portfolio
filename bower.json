@@ -1,0 +1,25 @@
+{
+  "name": "ironyard-boilerplate",
+  "version": "0.1.0",
+  "authors": [
+    "William Golden <egdelwonk@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "dist/bower_components"
+  ],
+  "dependencies": {
+    "neat": "~1.7.2",
+    "normalize-strings": "normalize#~1.0.4",
+    "normalize-css": "~3.0.3"
+  },
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "homepage": ""
+}
