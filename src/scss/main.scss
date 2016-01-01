@@ -33,7 +33,7 @@ body{
 
         #jobTitle{
           @include span-columns(6);
-          @include shift(4.01);
+          @include shift(3.61);
           color: #fff;
           font-size: 50px;
           font-weight: lighter;
@@ -231,7 +231,18 @@ body{
 
           #portfolio{
             @include span-columns(12);
-            height: 1400px;
+            height: 1700px;
+
+            #portfolioTitle{
+              @include span-columns(1.2);
+              @include shift(5.5);
+              font-size: 30px;
+              margin-top: 40px;
+              padding-left: 2px;
+              height: 40px;
+              color: #fff;
+              border-bottom: red 2px solid;
+            }
 
             #sectionOne{
               @include span-columns(12);
@@ -257,6 +268,57 @@ body{
               #siteDescription{
                 @include span-columns(6);
                 height: 350px;
+                color: #fff;
+                padding-top: 100px;
+                font-size: 25px;
+              }
+            }
+          }
+
+          footer{
+            @include span-columns(12);
+            height: 100px;
+            background: #fff;
+            border-top: red 2px solid;
+            border-bottom: red 2px solid;
+
+            nav{
+              @include span-columns(5);
+              @include shift(.5);
+
+              a{
+                @include span-columns(2);
+                font-size: 60px;
+                padding-top: 15px;
+                color: #0B2540;
+
+                &:hover{
+                  color: red;
+                }
+              }
+            }
+
+            #downloads{
+              @include span-columns(3.5);
+              @include shift(2.5);
+              margin-top: 30px;
+
+              a{
+                text-decoration: none;
+                color: #0B2540;
+                font-size: 20px;
+
+                &:last-of-type{
+                  margin-left: 10px;
+                }
+
+                &:hover{
+                  color: red;
+                }
+
+                i{
+                  font-size: 50px;
+                }
               }
             }
           }
