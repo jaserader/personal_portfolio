@@ -1,0 +1,513 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: lighter; }
+
+body {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #0B2540; }
+  body::after {
+    clear: both;
+    content: "";
+    display: table; }
+  body #app {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    body #app:last-child {
+      margin-right: 0; }
+    body #app div {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      body #app div:last-child {
+        margin-right: 0; }
+      body #app div #homepage {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        background: #0B2540; }
+        body #app div #homepage:last-child {
+          margin-right: 0; }
+        body #app div #homepage #logo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 76.11655%;
+          margin-left: 12.79471%;
+          height: 336px;
+          background: #0B2540 url("../img/nameLogo.svg") no-repeat 0px 0px;
+          margin-top: 30px; }
+          body #app div #homepage #logo:last-child {
+            margin-right: 0; }
+        body #app div #homepage #jobTitle {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 48.82117%;
+          margin-left: 30.79259%;
+          color: #fff;
+          font-size: 50px;
+          font-weight: lighter; }
+          body #app div #homepage #jobTitle:last-child {
+            margin-right: 0; }
+        body #app div #homepage #contactNav {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%; }
+          body #app div #homepage #contactNav:last-child {
+            margin-right: 0; }
+          body #app div #homepage #contactNav a {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 48.82117%;
+            margin-left: 40.09008%;
+            text-decoration: none;
+            color: #fff;
+            height: 25px;
+            margin-top: 15px;
+            font-size: 30px;
+            margin-right: 0; }
+            body #app div #homepage #contactNav a:last-child {
+              margin-right: 0; }
+            body #app div #homepage #contactNav a:last-of-type {
+              margin-left: 43.502%;
+              margin-top: 20px; }
+            body #app div #homepage #contactNav a:hover {
+              color: red; }
+            body #app div #homepage #contactNav a i {
+              margin-right: 10px;
+              font-size: 30px; }
+        body #app div #homepage #enterBtn {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 14.70196%;
+          margin-left: 43.502%;
+          margin-top: 70px;
+          padding-left: 65px;
+          padding-top: 8px;
+          text-decoration: none;
+          font-size: 35px;
+          height: 60px;
+          color: #fff;
+          border: #fff 2px solid;
+          border-radius: 3px; }
+          body #app div #homepage #enterBtn:last-child {
+            margin-right: 0; }
+          body #app div #homepage #enterBtn:hover {
+            color: red;
+            border: red 2px solid; }
+      body #app div #mainpage header {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        height: 100px;
+        background: #0B2540;
+        border-bottom: red 2px solid;
+        position: fixed;
+        top: 0px;
+        margin: auto;
+        z-index: 100000; }
+        body #app div #mainpage header:last-child {
+          margin-right: 0; }
+        body #app div #mainpage header #smallLogo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 23.23176%;
+          margin-left: 8.5298%;
+          background: #0B2540 url("../img/nameLogo.svg") no-repeat 0px 0px;
+          height: 78px; }
+          body #app div #mainpage header #smallLogo:last-child {
+            margin-right: 0; }
+        body #app div #mainpage header #headerNav {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 40.29137%;
+          margin-left: 17.05961%;
+          margin-top: 30px; }
+          body #app div #mainpage header #headerNav:last-child {
+            margin-right: 0; }
+          body #app div #mainpage header #headerNav a {
+            text-decoration: none;
+            font-size: 20px;
+            color: #fff;
+            margin: 0; }
+            body #app div #mainpage header #headerNav a:first-of-type {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 36.87945%;
+              margin-left: 34.11922%; }
+              body #app div #mainpage header #headerNav a:first-of-type:last-child {
+                margin-right: 0; }
+            body #app div #mainpage header #headerNav a i {
+              margin-right: 5px; }
+            body #app div #mainpage header #headerNav a:hover {
+              color: red; }
+        body #app div #mainpage header #brief {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 65.88078%;
+          margin-left: 8.5298%;
+          color: #fff;
+          font-weight: lighter;
+          font-size: 15px; }
+          body #app div #mainpage header #brief:last-child {
+            margin-right: 0; }
+          body #app div #mainpage header #brief:nth-child(n) {
+            margin-right: 0; }
+      body #app div #mainpage #heroImg {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        background: #fff url("../img/landscape_3.svg") no-repeat fixed 0px 100px;
+        background-size: 100% 425px;
+        height: 506px; }
+        body #app div #mainpage #heroImg:last-child {
+          margin-right: 0; }
+      body #app div #mainpage #aboutMe #headShot {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 27.49666%;
+        margin-left: 11.08875%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 400px;
+        border-radius: 50%;
+        background: #fff url("../img/headshot.jpg") no-repeat 0px 0px;
+        background-size: 100% 100%;
+        border: red 2px solid; }
+        body #app div #mainpage #aboutMe #headShot:last-child {
+          margin-right: 0; }
+      body #app div #mainpage #aboutMe #info {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 50.52714%;
+        margin-left: 2.55894%;
+        margin-top: 50px;
+        margin-bottom: 200px;
+        height: 275px;
+        border-radius: 5px;
+        background-size: 475px;
+        color: #fff;
+        font-size: 17.5px; }
+        body #app div #mainpage #aboutMe #info:last-child {
+          margin-right: 0; }
+        body #app div #mainpage #aboutMe #info #resumeTitle {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          font-size: 30px;
+          margin-top: 100px;
+          height: 40px;
+          border-bottom: red 2px solid; }
+          body #app div #mainpage #aboutMe #info #resumeTitle:last-child {
+            margin-right: 0; }
+          body #app div #mainpage #aboutMe #info #resumeTitle span:last-of-type {
+            margin-left: 60.56161%;
+            font-size: 12px;
+            margin-right: 10px; }
+          body #app div #mainpage #aboutMe #info #resumeTitle i {
+            padding-top: 2px;
+            font-size: 30px; }
+            body #app div #mainpage #aboutMe #info #resumeTitle i:hover {
+              color: red; }
+        body #app div #mainpage #aboutMe #info #briefResume {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%; }
+          body #app div #mainpage #aboutMe #info #briefResume:last-child {
+            margin-right: 0; }
+          body #app div #mainpage #aboutMe #info #briefResume ul li {
+            font-size: 20px;
+            margin-top: 20px; }
+      body #app div #mainpage #socialNav {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        height: 100px;
+        background: #fff;
+        border-top: red 2px solid;
+        border-bottom: red 2px solid; }
+        body #app div #mainpage #socialNav:last-child {
+          margin-right: 0; }
+        body #app div #mainpage #socialNav nav {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 48.82117%;
+          margin-left: 35.82518%; }
+          body #app div #mainpage #socialNav nav:last-child {
+            margin-right: 0; }
+          body #app div #mainpage #socialNav nav a {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 14.70196%;
+            font-size: 60px;
+            padding-top: 15px;
+            color: #0B2540; }
+            body #app div #mainpage #socialNav nav a:last-child {
+              margin-right: 0; }
+            body #app div #mainpage #socialNav nav a:hover {
+              color: red; }
+      body #app div #mainpage #portfolio {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        height: 1700px; }
+        body #app div #mainpage #portfolio:last-child {
+          margin-right: 0; }
+        body #app div #mainpage #portfolio #portfolioTitle {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 7.87811%;
+          margin-left: 46.91392%;
+          font-size: 30px;
+          margin-top: 40px;
+          padding-left: 2px;
+          height: 40px;
+          color: #fff;
+          border-bottom: red 2px solid; }
+          body #app div #mainpage #portfolio #portfolioTitle:last-child {
+            margin-right: 0; }
+        body #app div #mainpage #portfolio #sectionOne {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          height: 400px; }
+          body #app div #mainpage #portfolio #sectionOne:last-child {
+            margin-right: 0; }
+          body #app div #mainpage #portfolio #sectionOne #outerDiv {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 27.49666%;
+            margin-left: 12.79471%;
+            height: 350px;
+            border: red 2px solid;
+            border-radius: 50%;
+            margin-top: 25px; }
+            body #app div #mainpage #portfolio #sectionOne #outerDiv:last-child {
+              margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionOne #outerDiv #innerDiv {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 65.88078%;
+              margin-left: 17.05961%;
+              background: #0B2540 url("http://lorempixel.com/265/265") no-repeat 0px 0px;
+              border: red 2px solid;
+              height: 265px;
+              margin-top: 40px; }
+              body #app div #mainpage #portfolio #sectionOne #outerDiv #innerDiv:last-child {
+                margin-right: 0; }
+          body #app div #mainpage #portfolio #sectionOne #siteDescription {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 48.82117%;
+            height: 350px;
+            color: #fff;
+            padding-top: 100px;
+            font-size: 25px; }
+            body #app div #mainpage #portfolio #sectionOne #siteDescription:last-child {
+              margin-right: 0; }
+      body #app div #mainpage footer {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        height: 100px;
+        background: #fff;
+        border-top: red 2px solid;
+        border-bottom: red 2px solid; }
+        body #app div #mainpage footer:last-child {
+          margin-right: 0; }
+        body #app div #mainpage footer nav {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 40.29137%;
+          margin-left: 4.2649%; }
+          body #app div #mainpage footer nav:last-child {
+            margin-right: 0; }
+          body #app div #mainpage footer nav a {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 14.70196%;
+            font-size: 60px;
+            padding-top: 15px;
+            color: #0B2540; }
+            body #app div #mainpage footer nav a:last-child {
+              margin-right: 0; }
+            body #app div #mainpage footer nav a:hover {
+              color: red; }
+        body #app div #mainpage footer #downloads {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 27.49666%;
+          margin-left: 21.32451%;
+          margin-top: 30px; }
+          body #app div #mainpage footer #downloads:last-child {
+            margin-right: 0; }
+          body #app div #mainpage footer #downloads a {
+            text-decoration: none;
+            color: #0B2540;
+            font-size: 20px; }
+            body #app div #mainpage footer #downloads a:last-of-type {
+              margin-left: 10px; }
+            body #app div #mainpage footer #downloads a:hover {
+              color: red; }
+            body #app div #mainpage footer #downloads a i {
+              font-size: 50px; }
+      @media (max-width: 768px) and (min-width: 481px) {
+        body #app div #mainpage header {
+          height: 100px; }
+          body #app div #mainpage header #smallLogo {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 40.29137%;
+            margin-left: 4.2649%; }
+            body #app div #mainpage header #smallLogo:last-child {
+              margin-right: 0; }
+          body #app div #mainpage header #headerNav {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 40.29137%;
+            margin-left: 0%;
+            margin-top: 25px; }
+            body #app div #mainpage header #headerNav:last-child {
+              margin-right: 0; }
+            body #app div #mainpage header #headerNav:nth-child(n) {
+              margin-right: 0; }
+            body #app div #mainpage header #headerNav a {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 48.82117%;
+              margin-left: 70.79738%; }
+              body #app div #mainpage header #headerNav a:last-child {
+                margin-right: 0; }
+              body #app div #mainpage header #headerNav a:nth-child(n) {
+                margin-right: 0; }
+              body #app div #mainpage header #headerNav a:first-of-type {
+                float: left;
+                display: block;
+                margin-right: 2.35765%;
+                width: 65.88078%;
+                margin-left: 49.04637%; }
+                body #app div #mainpage header #headerNav a:first-of-type:last-child {
+                  margin-right: 0; }
+          body #app div #mainpage header #brief {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 100%;
+            margin-left: 4.2649%; }
+            body #app div #mainpage header #brief:last-child {
+              margin-right: 0; }
+        body #app div #mainpage #heroImg {
+          height: 365px;
+          background-position: 0 20px; }
+        body #app div #mainpage #aboutMe #headShot {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 36.02647%;
+          margin-left: 4.2649%;
+          height: 300px;
+          margin-top: 70px; }
+          body #app div #mainpage #aboutMe #headShot:last-child {
+            margin-right: 0; }
+        body #app div #mainpage #aboutMe #info {
+          height: 185px; }
+          body #app div #mainpage #aboutMe #info #resumeTitle {
+            margin-top: 10px; }
+            body #app div #mainpage #aboutMe #info #resumeTitle span:last-of-type {
+              margin-left: 32.41326%; }
+          body #app div #mainpage #aboutMe #info #briefResume ul li {
+            font-size: 17px; }
+        body #app div #mainpage #socialNav nav {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          margin-left: 22.17749%; }
+          body #app div #mainpage #socialNav nav:last-child {
+            margin-right: 0; }
+          body #app div #mainpage #socialNav nav a {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 14.70196%; }
+            body #app div #mainpage #socialNav nav a:last-child {
+              margin-right: 0; }
+        body #app div #mainpage #portfolio #portfolioTitle {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 14.70196%; }
+          body #app div #mainpage #portfolio #portfolioTitle:last-child {
+            margin-right: 0; }
+        body #app div #mainpage #portfolio #sectionOne #outerDiv {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 36.02647%;
+          margin-left: 4.2649%;
+          height: 300px; }
+          body #app div #mainpage #portfolio #sectionOne #outerDiv:last-child {
+            margin-right: 0; }
+          body #app div #mainpage #portfolio #sectionOne #outerDiv #innerDiv {
+            height: 218px; }
+        body #app div #mainpage #portfolio #sectionOne #siteDescription {
+          font-size: 20px; }
+        body #app div #mainpage footer nav {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 48.82117%; }
+          body #app div #mainpage footer nav:last-child {
+            margin-right: 0; }
+        body #app div #mainpage footer #downloads {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 40.29137%;
+          margin-left: 0%; }
+          body #app div #mainpage footer #downloads:last-child {
+            margin-right: 0; }
+          body #app div #mainpage footer #downloads a {
+            font-size: 14px; } }
