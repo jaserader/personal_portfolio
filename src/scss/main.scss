@@ -27,7 +27,7 @@ body{
           @include span-columns(9.2);
           @include shift(1.5);
           height: 336px;
-          background: #0B2540 url('../../../assets/nameLogo.svg') no-repeat 0px 0px;
+          background: #0B2540 url('../img/nameLogo.svg') no-repeat 0px 0px;
           margin-top: 30px;
           }
 
@@ -89,9 +89,11 @@ body{
       }
 
       #mainpage{
+        // background: #fff;
+
         header{
           @include span-columns(12);
-          height: 80px;
+          height: 100px;
           background: #0B2540;
           border-bottom: red 2px solid;
           position:fixed;
@@ -102,7 +104,7 @@ body{
           #smallLogo{
             @include span-columns(3);
             @include shift(1);
-            background: #0B2540 url('../../../assets/nameLogo.svg') no-repeat 0px 0px;
+            background: #0B2540 url('../img/nameLogo.svg') no-repeat 0px 0px;
             height: 78px;
           }
 
@@ -131,11 +133,20 @@ body{
               }
             }
           }
+
+          #brief{
+            @include span-columns(8);
+            @include shift(1);
+            @include omega(n);
+            color: #fff;
+            font-weight: lighter;
+            font-size: 15px;
+          }
         }
 
           #heroImg{
             @include span-columns(12);
-            background: #fff url('../../../assets/landscape_3.svg') no-repeat fixed 0px 80px;
+            background: #fff url('../img/landscape_3.svg') no-repeat fixed 0px 100px;
             background-size: 100% 425px;
             height: 506px;
           }
@@ -149,7 +160,7 @@ body{
               margin-bottom: 50px;
               height: 400px;
               border-radius: 50%;
-              background: #fff url('../../../assets/headshot.jpg') no-repeat 0px 0px;
+              background: #fff url('../img/headshot.jpg') no-repeat 0px 0px;
               background-size: 100% 100%;
               border: red 2px solid;
 
@@ -259,6 +270,7 @@ body{
                 #innerDiv{
                   @include span-columns(8);
                   @include shift(2);
+                  background: #0B2540 url('http://lorempixel.com/265/265') no-repeat 0px 0px;
                   border: red 2px solid;
                   height: 265px;
                   margin-top: 40px;
@@ -318,6 +330,126 @@ body{
 
                 i{
                   font-size: 50px;
+                }
+              }
+            }
+          }
+
+          @media (max-width: 768px) and (min-width: 481px) {
+            header{
+              height: 100px;
+
+              #smallLogo{
+                @include span-columns(5);
+                @include shift(.5);
+              }
+
+              #headerNav{
+                @include span-columns(5);
+                @include shift(0);
+                @include omega(n);
+                margin-top: 25px;
+
+                a{
+                  @include span-columns(6);
+                  @include shift(8.3);
+                  @include omega(n);
+
+                  &:first-of-type{
+                    @include span-columns(8);
+                    @include shift(5.75);
+                  }
+                }
+              }
+
+              #brief{
+                @include span-columns(12);
+                @include shift(.5);
+              }
+            }
+
+            #heroImg{
+              height: 365px;
+              background-position: 0 20px;
+            }
+
+            #aboutMe{
+
+              #headShot{
+                @include span-columns(4.5);
+                @include shift(.5);
+                height: 300px;
+                margin-top: 70px;
+              }
+
+              #info{
+                height: 185px;
+
+                #resumeTitle{
+                  margin-top: 10px;
+
+                  span{
+                    &:last-of-type{
+                      @include shift(3.8);
+                    }
+                  }
+                }
+
+                #briefResume{
+                  ul{
+                    li{
+                      font-size: 17px;
+                    }
+                  }
+                }
+              }
+            }
+
+            #socialNav{
+              nav{
+                @include span-columns(12);
+                @include shift(2.6);
+
+                a{
+                  @include span-columns(2);
+                }
+              }
+            }
+
+            #portfolio{
+
+              #portfolioTitle{
+                @include span-columns(2);
+              }
+
+              #sectionOne{
+                #outerDiv{
+                  @include span-columns(4.5);
+                  @include shift(.5);
+                  height: 300px;
+
+                  #innerDiv{
+                    height: 218px;
+                  }
+                }
+
+                #siteDescription{
+                  font-size: 20px;
+                }
+              }
+            }
+
+            footer{
+              nav{
+                @include span-columns(6);
+              }
+
+              #downloads{
+                @include span-columns(5);
+                @include shift(0);
+
+                a{
+                  font-size: 14px;
                 }
               }
             }

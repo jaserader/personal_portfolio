@@ -10,6 +10,7 @@ class Mainpage extends React.Component{
           <header>
             <div id="smallLogo"></div>
             <div id="headerNav"><Link><i className="fa fa-envelope-o"></i>jaserader@me.com</Link><Link><i className="fa fa-mobile"></i>615-838-5484</Link></div>
+            <div id="brief">Jase is a Front-End Developer with a background in Information Technology and Business.</div>
           </header>
 
           <div id="heroImg"></div>
@@ -17,7 +18,6 @@ class Mainpage extends React.Component{
           <section id="aboutMe">
             <div id="headShot"></div>
             <div id="info">
-              <div>Jase is a Front-End Developer with a background in Information Technology and Business.</div>
 
               <span id="resumeTitle">Resumé: <span>(download PDF)</span><i className="fa fa-download"></i></span>
 
@@ -53,7 +53,7 @@ class Mainpage extends React.Component{
                 <div id="innerDiv"></div>
               </div>
 
-              <div id="siteDescription"> Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+              <div id="siteDescription"> Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
             </section>
 
             <section id="sectionOne">
@@ -61,7 +61,7 @@ class Mainpage extends React.Component{
                 <div id="innerDiv"></div>
               </div>
 
-              <div id="siteDescription"> Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+              <div id="siteDescription"> Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
             </section>
 
             <section id="sectionOne">
@@ -69,7 +69,7 @@ class Mainpage extends React.Component{
                 <div id="innerDiv"></div>
               </div>
 
-              <div id="siteDescription"> Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+              <div id="siteDescription"> Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
             </section>
 
             <section id="sectionOne">
@@ -77,7 +77,7 @@ class Mainpage extends React.Component{
                 <div id="innerDiv"></div>
               </div>
 
-              <div id="siteDescription"> Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+              <div id="siteDescription"> Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
             </section>
 
           </section>
