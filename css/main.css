@@ -111,6 +111,73 @@ body {
           body #app div #homepage #enterBtn:hover {
             color: red;
             border: red 2px solid; }
+        @media (max-width: 768px) and (min-width: 481px) {
+          body #app div #homepage #logo {
+            margin-left: 11.94173%;
+            margin-top: 100px;
+            height: 215px; }
+          body #app div #homepage #jobTitle {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 82.94039%;
+            margin-left: 11.94173%; }
+            body #app div #homepage #jobTitle:last-child {
+              margin-right: 0; }
+          body #app div #homepage #contactNav a {
+            margin-left: 32.41326%; }
+            body #app div #homepage #contactNav a:last-of-type {
+              margin-left: 39.2371%; }
+          body #app div #homepage #enterBtn {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 18.96686%;
+            padding-left: 31px; }
+            body #app div #homepage #enterBtn:last-child {
+              margin-right: 0; } }
+        @media (max-width: 375px) and (min-width: 300px) {
+          body #app div #homepage #logo {
+            height: 110px; }
+          body #app div #homepage #jobTitle {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 95.7351%;
+            margin-left: 3.41192%;
+            font-size: 30px; }
+            body #app div #homepage #jobTitle:last-child {
+              margin-right: 0; }
+            body #app div #homepage #jobTitle:nth-child(n) {
+              margin-right: 0; }
+          body #app div #homepage #contactNav a {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 65.88078%;
+            margin-left: 23.88345%;
+            font-size: 20px;
+            margin-top: 10px; }
+            body #app div #homepage #contactNav a:last-child {
+              margin-right: 0; }
+            body #app div #homepage #contactNav a:last-of-type {
+              margin-left: 32.41326%;
+              margin-top: 10px; }
+            body #app div #homepage #contactNav a i {
+              font-size: 20px; }
+          body #app div #homepage #enterBtn {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 31.76157%;
+            margin-left: 35.82518%;
+            padding-left: 29px;
+            padding-top: 5px;
+            font-size: 25px;
+            margin-top: 40px;
+            height: 43px; }
+            body #app div #homepage #enterBtn:last-child {
+              margin-right: 0; } }
       body #app div #mainpage header {
         float: left;
         display: block;
@@ -398,15 +465,17 @@ body {
             display: block;
             margin-right: 2.35765%;
             width: 40.29137%;
-            margin-left: 4.2649%; }
+            margin-left: 2.55894%; }
             body #app div #mainpage header #smallLogo:last-child {
+              margin-right: 0; }
+            body #app div #mainpage header #smallLogo:nth-child(n) {
               margin-right: 0; }
           body #app div #mainpage header #headerNav {
             float: left;
             display: block;
             margin-right: 2.35765%;
-            width: 40.29137%;
-            margin-left: 0%;
+            width: 27.49666%;
+            margin-left: 27.29537%;
             margin-top: 25px; }
             body #app div #mainpage header #headerNav:last-child {
               margin-right: 0; }
@@ -416,8 +485,8 @@ body {
               float: left;
               display: block;
               margin-right: 2.35765%;
-              width: 48.82117%;
-              margin-left: 70.79738%; }
+              width: 74.41059%;
+              margin-left: 29.00133%; }
               body #app div #mainpage header #headerNav a:last-child {
                 margin-right: 0; }
               body #app div #mainpage header #headerNav a:nth-child(n) {
@@ -426,16 +495,17 @@ body {
                 float: left;
                 display: block;
                 margin-right: 2.35765%;
-                width: 65.88078%;
-                margin-left: 49.04637%; }
+                width: 100%;
+                margin-left: 0%; }
                 body #app div #mainpage header #headerNav a:first-of-type:last-child {
                   margin-right: 0; }
           body #app div #mainpage header #brief {
             float: left;
             display: block;
             margin-right: 2.35765%;
-            width: 100%;
-            margin-left: 4.2649%; }
+            width: 82.94039%;
+            margin-left: 10.23577%;
+            color: red; }
             body #app div #mainpage header #brief:last-child {
               margin-right: 0; }
         body #app div #mainpage #heroImg {
@@ -478,7 +548,8 @@ body {
           float: left;
           display: block;
           margin-right: 2.35765%;
-          width: 14.70196%; }
+          width: 14.70196%;
+          margin-left: 42.64902%; }
           body #app div #mainpage #portfolio #portfolioTitle:last-child {
             margin-right: 0; }
         body #app div #mainpage #portfolio #sectionOne #outerDiv {
@@ -511,3 +582,16 @@ body {
             margin-right: 0; }
           body #app div #mainpage footer #downloads a {
             font-size: 14px; } }
+      @media (max-width: 375px) and (min-width: 300px) {
+        body #app div #mainpage #header #smallLogo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          height: 50px; }
+          body #app div #mainpage #header #smallLogo:last-child {
+            margin-right: 0; }
+        body #app div #mainpage #heroImg {
+          height: 230px;
+          background-size: 100% 285px;
+          background-position: 0px 25px; } }
