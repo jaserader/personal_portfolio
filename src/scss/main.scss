@@ -86,6 +86,79 @@ body{
             border: red 2px solid;
           }
         }
+
+        @media (max-width: 768px) and (min-width: 481px) {
+          #logo{
+            @include shift(1.4);
+            margin-top: 100px;
+            height: 215px;
+          }
+
+          #jobTitle{
+            @include span-columns(10);
+            @include shift(1.4);
+          }
+
+          #contactNav{
+            a{
+              @include shift(3.8);
+
+              &:last-of-type{
+                @include shift(4.6);
+              }
+            }
+          }
+
+          #enterBtn{
+            @include span-columns(2.5);
+            padding-left: 31px;
+          }
+        }
+
+        @media (max-width: 414px) and (min-width: 376px) {
+
+        }
+
+        @media (max-width: 375px) and (min-width: 300px) {
+          #logo{
+            height: 110px;
+          }
+
+          #jobTitle{
+            @include span-columns(11.5);
+            @include shift(.4);
+            @include omega(n);
+            font-size: 30px;
+          }
+
+          #contactNav{
+            a{
+              @include span-columns(8);
+              @include shift(2.8);
+              font-size: 20px;
+              margin-top: 10px;
+
+              &:last-of-type{
+                @include shift(3.8);
+                margin-top: 10px;
+              }
+
+              i{
+                font-size: 20px;
+              }
+            }
+          }
+
+          #enterBtn{
+            @include span-columns(4);
+            @include shift(4.2);
+            padding-left: 29px;
+            padding-top: 5px;
+            font-size: 25px;
+            margin-top: 40px;
+            height: 43px;
+          }
+        }
       }
 
       #mainpage{
@@ -136,9 +209,9 @@ body{
 
           #brief{
             @include span-columns(8);
-            @include shift(1);
+            @include shift(1.2);
             @include omega(n);
-            color: #fff;
+            color: red;
             font-weight: lighter;
             font-size: 15px;
           }
@@ -155,7 +228,7 @@ body{
 
             #headShot{
               @include span-columns(3.5);
-              @include shift(1.3);
+              @include shift(1);
               margin-top: 50px;
               margin-bottom: 50px;
               height: 400px;
@@ -261,7 +334,7 @@ body{
 
               #outerDiv{
                 @include span-columns(3.5);
-                @include shift(1.5);
+                @include shift(1);
                 height: 350px;
                 border: red 2px solid;
                 border-radius: 50%;
@@ -279,6 +352,7 @@ body{
 
               #siteDescription{
                 @include span-columns(6);
+                @include shift(.8);
                 height: 350px;
                 color: #fff;
                 padding-top: 100px;
@@ -336,35 +410,38 @@ body{
           }
 
           @media (max-width: 768px) and (min-width: 481px) {
+
             header{
               height: 100px;
 
               #smallLogo{
                 @include span-columns(5);
-                @include shift(.5);
+                @include shift(.3);
+                @include omega(n);
               }
 
               #headerNav{
-                @include span-columns(5);
-                @include shift(0);
+                @include span-columns(3.5);
+                @include shift(3.2);
                 @include omega(n);
                 margin-top: 25px;
 
                 a{
-                  @include span-columns(6);
-                  @include shift(8.3);
+                  @include span-columns(9);
+                  @include shift(3.4);
                   @include omega(n);
 
                   &:first-of-type{
-                    @include span-columns(8);
-                    @include shift(5.75);
+                    @include span-columns(12);
+                    @include shift(0);
                   }
                 }
               }
 
               #brief{
-                @include span-columns(12);
-                @include shift(.5);
+                @include span-columns(10);
+                @include shift(1.2);
+                color: red;
               }
             }
 
@@ -420,6 +497,7 @@ body{
 
               #portfolioTitle{
                 @include span-columns(2);
+                @include shift(5);
               }
 
               #sectionOne{
@@ -450,6 +528,91 @@ body{
 
                 a{
                   font-size: 14px;
+                }
+              }
+            }
+          }
+
+          @media (max-width: 375px) and (min-width: 300px) {
+            header{
+              height: 140px;
+
+              #smallLogo{
+                @include span-columns(8);
+                @include shift(2.6);
+                height: 60px;
+              }
+
+              #headerNav{
+                @include span-columns(12);
+                @include shift(0);
+                margin-top: 5px;
+
+                a{
+                  @include span-columns(8);
+                  @include shift(4.4);
+                  font-size: 14px;
+
+                  &:first-of-type{
+                    @include span-columns(8);
+                    @include shift(3.7);
+                  }
+                }
+              }
+
+              #brief{
+                @include span-columns(11);
+                @include shift(.5);
+                margin-top: 10px;
+                font-size: 12px;
+                text-align: center;
+              }
+            }
+
+            #heroImg{
+              height: 260px;
+              background-size: 100% 285px;
+              background-position: 0px 60px;
+            }
+
+            #aboutMe{
+              #headShot{
+                @include span-columns(5);
+                @include shift(3.5);
+                height: 150px;
+                margin-top: 15px;
+                margin-bottom: 0px;
+              }
+
+              #info{
+                @include span-columns(11);
+                @include shift(.5);
+                margin-top: 0px;
+
+                #resumeTitle{
+                  margin-top: 5px;
+                  font-size: 25px;
+                  height: 33px;
+
+                  span{
+
+                    &:last-of-type{
+                      @include shift(3.8);
+                    }
+                  }
+
+                  i{
+                    font-size: 25px;
+                  }
+                }
+
+                #briefResume{
+                  ul{
+                    li{
+                      font-size: 16px;
+                      font-weight: lighter;
+                    }
+                  }
                 }
               }
             }
