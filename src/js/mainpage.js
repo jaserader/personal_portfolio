@@ -49,33 +49,25 @@ class Mainpage extends React.Component{
             <span id="portfolioTitle">Portfolio</span>
 
             <section id="sectionOne">
-              <div id="outerDiv">
                 <div id="innerDiv"></div>
-              </div>
 
               <div id="siteDescription"> Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
             </section>
 
             <section id="sectionOne">
-              <div id="outerDiv">
                 <div id="innerDiv"></div>
-              </div>
 
               <div id="siteDescription"> Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
             </section>
 
             <section id="sectionOne">
-              <div id="outerDiv">
                 <div id="innerDiv"></div>
-              </div>
 
               <div id="siteDescription"> Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
             </section>
 
             <section id="sectionOne">
-              <div id="outerDiv">
                 <div id="innerDiv"></div>
-              </div>
 
               <div id="siteDescription"> Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
             </section>

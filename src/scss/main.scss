@@ -72,7 +72,7 @@ body{
           @include span-columns(2);
           @include shift(5.1);
           margin-top: 70px;
-          padding-left: 65px;
+          padding-left: 4.5%;
           padding-top: 8px;
           text-decoration: none;
           font-size: 35px;
@@ -332,23 +332,25 @@ body{
               @include span-columns(12);
               height: 400px;
 
-              #outerDiv{
-                @include span-columns(3.5);
-                @include shift(1);
-                height: 350px;
-                border: red 2px solid;
-                border-radius: 50%;
-                margin-top: 25px;
+              // #outerDiv{
+              //   @include span-columns(3.5);
+              //   @include shift(1);
+              //   height: 350px;
+              //   border: red 2px solid;
+              //   border-radius: 50%;
+              //   margin-top: 25px;
 
                 #innerDiv{
-                  @include span-columns(8);
-                  @include shift(2);
-                  background: #0B2540 url('http://lorempixel.com/265/265') no-repeat 0px 0px;
+                  @include span-columns(4);
+                  @include shift(1);
+                  @include omega(n);
+                  background: #0B2540 url('../img/goals_screen.png') no-repeat 0px 0px;
+                  background-size: 100% 100%;
                   border: red 2px solid;
-                  height: 265px;
+                  height: 315px;
                   margin-top: 40px;
                 }
-              }
+              // }
 
               #siteDescription{
                 @include span-columns(6);
@@ -409,7 +411,7 @@ body{
             }
           }
 
-          @media (max-width: 768px) and (min-width: 481px) {
+        @media (max-width: 768px) and (min-width: 481px) {
 
             header{
               height: 100px;
@@ -446,8 +448,9 @@ body{
             }
 
             #heroImg{
+              @include span-columns(12);
               height: 365px;
-              background-position: 0 20px;
+              background-position: 100% 20px;
             }
 
             #aboutMe{
@@ -494,6 +497,7 @@ body{
             }
 
             #portfolio{
+              height: 1340px;
 
               #portfolioTitle{
                 @include span-columns(2);
@@ -501,15 +505,12 @@ body{
               }
 
               #sectionOne{
-                #outerDiv{
-                  @include span-columns(4.5);
-                  @include shift(.5);
-                  height: 300px;
+                height: 300px;
 
                   #innerDiv{
+                    margin-top: 75px;
                     height: 218px;
                   }
-                }
 
                 #siteDescription{
                   font-size: 20px;
@@ -533,7 +534,7 @@ body{
             }
           }
 
-          @media (max-width: 375px) and (min-width: 300px) {
+          @media (max-width: 380px) and (min-width: 300px) {
             header{
               height: 140px;
 
