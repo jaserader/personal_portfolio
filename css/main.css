@@ -466,8 +466,8 @@ body {
             float: left;
             display: block;
             margin-right: 2.35765%;
-            width: 27.49666%;
-            margin-left: 27.29537%;
+            width: 53.08608%;
+            margin-left: 0%;
             margin-top: 25px; }
             body #app div #mainpage header #headerNav:last-child {
               margin-right: 0; }
@@ -477,8 +477,8 @@ body {
               float: left;
               display: block;
               margin-right: 2.35765%;
-              width: 74.41059%;
-              margin-left: 29.00133%; }
+              width: 34.32051%;
+              margin-left: 62.26757%; }
               body #app div #mainpage header #headerNav a:last-child {
                 margin-right: 0; }
               body #app div #mainpage header #headerNav a:nth-child(n) {
@@ -487,10 +487,14 @@ body {
                 float: left;
                 display: block;
                 margin-right: 2.35765%;
-                width: 100%;
-                margin-left: 0%; }
+                width: 48.82117%;
+                margin-left: 51.17883%; }
                 body #app div #mainpage header #headerNav a:first-of-type:last-child {
                   margin-right: 0; }
+                body #app div #mainpage header #headerNav a:first-of-type:nth-child(n) {
+                  margin-right: 0; }
+              body #app div #mainpage header #headerNav a span {
+                font-size: 14px; }
           body #app div #mainpage header #brief {
             float: left;
             display: block;
@@ -524,7 +528,7 @@ body {
           body #app div #mainpage #aboutMe #info #resumeTitle {
             margin-top: 10px; }
             body #app div #mainpage #aboutMe #info #resumeTitle span:last-of-type {
-              margin-left: 32.41326%; }
+              margin-left: 17.05961%; }
           body #app div #mainpage #aboutMe #info #briefResume ul li {
             font-size: 17px; }
         body #app div #mainpage #socialNav nav {
