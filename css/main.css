@@ -296,6 +296,9 @@ body {
             margin-left: 60.56161%;
             font-size: 12px;
             margin-right: 10px; }
+          body #app div #mainpage #aboutMe #info #resumeTitle a {
+            text-decoration: none;
+            color: red; }
           body #app div #mainpage #aboutMe #info #resumeTitle i {
             padding-top: 2px;
             font-size: 30px; }
