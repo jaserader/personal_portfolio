@@ -111,73 +111,6 @@ body {
           body #app div #homepage #enterBtn:hover {
             color: red;
             border: red 2px solid; }
-        @media (max-width: 768px) and (min-width: 481px) {
-          body #app div #homepage #logo {
-            margin-left: 11.94173%;
-            margin-top: 100px;
-            height: 215px; }
-          body #app div #homepage #jobTitle {
-            float: left;
-            display: block;
-            margin-right: 2.35765%;
-            width: 82.94039%;
-            margin-left: 11.94173%; }
-            body #app div #homepage #jobTitle:last-child {
-              margin-right: 0; }
-          body #app div #homepage #contactNav a {
-            margin-left: 32.41326%; }
-            body #app div #homepage #contactNav a:last-of-type {
-              margin-left: 39.2371%; }
-          body #app div #homepage #enterBtn {
-            float: left;
-            display: block;
-            margin-right: 2.35765%;
-            width: 18.96686%;
-            padding-left: 31px; }
-            body #app div #homepage #enterBtn:last-child {
-              margin-right: 0; } }
-        @media (max-width: 375px) and (min-width: 300px) {
-          body #app div #homepage #logo {
-            height: 110px; }
-          body #app div #homepage #jobTitle {
-            float: left;
-            display: block;
-            margin-right: 2.35765%;
-            width: 95.7351%;
-            margin-left: 3.41192%;
-            font-size: 30px; }
-            body #app div #homepage #jobTitle:last-child {
-              margin-right: 0; }
-            body #app div #homepage #jobTitle:nth-child(n) {
-              margin-right: 0; }
-          body #app div #homepage #contactNav a {
-            float: left;
-            display: block;
-            margin-right: 2.35765%;
-            width: 65.88078%;
-            margin-left: 23.88345%;
-            font-size: 20px;
-            margin-top: 10px; }
-            body #app div #homepage #contactNav a:last-child {
-              margin-right: 0; }
-            body #app div #homepage #contactNav a:last-of-type {
-              margin-left: 32.41326%;
-              margin-top: 10px; }
-            body #app div #homepage #contactNav a i {
-              font-size: 20px; }
-          body #app div #homepage #enterBtn {
-            float: left;
-            display: block;
-            margin-right: 2.35765%;
-            width: 31.76157%;
-            margin-left: 35.82518%;
-            padding-left: 29px;
-            padding-top: 5px;
-            font-size: 25px;
-            margin-top: 40px;
-            height: 43px; }
-            body #app div #homepage #enterBtn:last-child {
-              margin-right: 0; } }
       body #app div #mainpage header {
         float: left;
         display: block;
@@ -450,6 +383,30 @@ body {
             body #app div #mainpage footer #downloads a i {
               font-size: 50px; }
       @media (max-width: 768px) and (min-width: 481px) {
+        body #app div #mainpage #logo {
+          margin-left: 11.94173%;
+          margin-top: 100px;
+          height: 215px; }
+        body #app div #mainpage #jobTitle {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 82.94039%;
+          margin-left: 11.94173%; }
+          body #app div #mainpage #jobTitle:last-child {
+            margin-right: 0; }
+        body #app div #mainpage #contactNav a {
+          margin-left: 32.41326%; }
+          body #app div #mainpage #contactNav a:last-of-type {
+            margin-left: 39.2371%; }
+        body #app div #mainpage #enterBtn {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 18.96686%;
+          padding-left: 31px; }
+          body #app div #mainpage #enterBtn:last-child {
+            margin-right: 0; }
         body #app div #mainpage header {
           height: 100px; }
           body #app div #mainpage header #smallLogo {
@@ -576,7 +533,48 @@ body {
             margin-right: 0; }
           body #app div #mainpage footer #downloads a {
             font-size: 14px; } }
-      @media (max-width: 380px) and (min-width: 300px) {
+      @media (max-width: 375px) and (min-width: 300px) {
+        body #app div #mainpage #logo {
+          height: 110px; }
+        body #app div #mainpage #jobTitle {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 95.7351%;
+          margin-left: 3.41192%;
+          font-size: 30px; }
+          body #app div #mainpage #jobTitle:last-child {
+            margin-right: 0; }
+          body #app div #mainpage #jobTitle:nth-child(n) {
+            margin-right: 0; }
+        body #app div #mainpage #contactNav a {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 65.88078%;
+          margin-left: 23.88345%;
+          font-size: 20px;
+          margin-top: 10px; }
+          body #app div #mainpage #contactNav a:last-child {
+            margin-right: 0; }
+          body #app div #mainpage #contactNav a:last-of-type {
+            margin-left: 32.41326%;
+            margin-top: 10px; }
+          body #app div #mainpage #contactNav a i {
+            font-size: 20px; }
+        body #app div #mainpage #enterBtn {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 31.76157%;
+          margin-left: 35.82518%;
+          padding-left: 29px;
+          padding-top: 5px;
+          font-size: 25px;
+          margin-top: 40px;
+          height: 43px; }
+          body #app div #mainpage #enterBtn:last-child {
+            margin-right: 0; }
         body #app div #mainpage header {
           height: 140px; }
           body #app div #mainpage header #smallLogo {
