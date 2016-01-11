@@ -756,8 +756,10 @@ body {
             float: left;
             display: block;
             margin-right: 2.35765%;
-            width: 100%; }
+            width: 95.7351%; }
             body #app div #mainpage footer nav:last-child {
+              margin-right: 0; }
+            body #app div #mainpage footer nav:nth-child(n) {
               margin-right: 0; }
             body #app div #mainpage footer nav a {
               font-size: 45px; }
@@ -767,7 +769,7 @@ body {
             float: left;
             display: block;
             margin-right: 2.35765%;
-            width: 100%;
+            width: 95.7351%;
             margin-left: 0%; }
             body #app div #mainpage footer #downloads:last-child {
               margin-right: 0; }
