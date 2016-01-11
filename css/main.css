@@ -434,13 +434,15 @@ body {
             margin-left: 8.5298%;
             background: #0B2540 url("../img/goals_screen.png") no-repeat 0px 0px;
             background-size: 100% 100%;
-            border: red 2px solid;
+            border: #fff 2px solid;
             height: 315px;
             margin-top: 40px; }
             body #app div #mainpage #portfolio #sectionOne #innerDiv:last-child {
               margin-right: 0; }
             body #app div #mainpage #portfolio #sectionOne #innerDiv:nth-child(n) {
               margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionOne #innerDiv:hover {
+              border: red 4px solid; }
           body #app div #mainpage #portfolio #sectionOne #siteDescription {
             float: left;
             display: block;
