@@ -457,6 +457,120 @@ body {
             text-align: justify; }
             body #app div #mainpage #portfolio #sectionOne #siteDescription:last-child {
               margin-right: 0; }
+        body #app div #mainpage #portfolio #sectionTwo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          height: 400px; }
+          body #app div #mainpage #portfolio #sectionTwo:last-child {
+            margin-right: 0; }
+          body #app div #mainpage #portfolio #sectionTwo #innerDiv {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 31.76157%;
+            margin-left: 8.5298%;
+            background: #0B2540 url("../img/goals_screen.png") no-repeat 0px 0px;
+            background-size: 100% 100%;
+            border: #fff 2px solid;
+            height: 315px;
+            margin-top: 40px; }
+            body #app div #mainpage #portfolio #sectionTwo #innerDiv:last-child {
+              margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionTwo #innerDiv:nth-child(n) {
+              margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionTwo #innerDiv:hover {
+              border: red 4px solid; }
+          body #app div #mainpage #portfolio #sectionTwo #siteDescription {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 48.82117%;
+            margin-left: 6.82384%;
+            height: 350px;
+            color: #fff;
+            padding-top: 100px;
+            font-size: 25px;
+            text-align: justify; }
+            body #app div #mainpage #portfolio #sectionTwo #siteDescription:last-child {
+              margin-right: 0; }
+        body #app div #mainpage #portfolio #sectionThree {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          height: 400px; }
+          body #app div #mainpage #portfolio #sectionThree:last-child {
+            margin-right: 0; }
+          body #app div #mainpage #portfolio #sectionThree #innerDiv {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 31.76157%;
+            margin-left: 8.5298%;
+            background: #0B2540 url("../img/goals_screen.png") no-repeat 0px 0px;
+            background-size: 100% 100%;
+            border: #fff 2px solid;
+            height: 315px;
+            margin-top: 40px; }
+            body #app div #mainpage #portfolio #sectionThree #innerDiv:last-child {
+              margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionThree #innerDiv:nth-child(n) {
+              margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionThree #innerDiv:hover {
+              border: red 4px solid; }
+          body #app div #mainpage #portfolio #sectionThree #siteDescription {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 48.82117%;
+            margin-left: 6.82384%;
+            height: 350px;
+            color: #fff;
+            padding-top: 100px;
+            font-size: 25px;
+            text-align: justify; }
+            body #app div #mainpage #portfolio #sectionThree #siteDescription:last-child {
+              margin-right: 0; }
+        body #app div #mainpage #portfolio #sectionFour {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          height: 400px; }
+          body #app div #mainpage #portfolio #sectionFour:last-child {
+            margin-right: 0; }
+          body #app div #mainpage #portfolio #sectionFour #innerDiv {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 31.76157%;
+            margin-left: 8.5298%;
+            background: #0B2540 url("../img/goals_screen.png") no-repeat 0px 0px;
+            background-size: 100% 100%;
+            border: #fff 2px solid;
+            height: 315px;
+            margin-top: 40px; }
+            body #app div #mainpage #portfolio #sectionFour #innerDiv:last-child {
+              margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionFour #innerDiv:nth-child(n) {
+              margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionFour #innerDiv:hover {
+              border: red 4px solid; }
+          body #app div #mainpage #portfolio #sectionFour #siteDescription {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 48.82117%;
+            margin-left: 6.82384%;
+            height: 350px;
+            color: #fff;
+            padding-top: 100px;
+            font-size: 25px;
+            text-align: justify; }
+            body #app div #mainpage #portfolio #sectionFour #siteDescription:last-child {
+              margin-right: 0; }
       body #app div #mainpage footer {
         float: left;
         display: block;
@@ -648,6 +762,27 @@ body {
               height: 218px; }
             body #app div #mainpage #portfolio #sectionOne #siteDescription {
               font-size: 20px; }
+          body #app div #mainpage #portfolio #sectionTwo {
+            height: 300px; }
+            body #app div #mainpage #portfolio #sectionTwo #innerDiv {
+              margin-top: 75px;
+              height: 218px; }
+            body #app div #mainpage #portfolio #sectionTwo #siteDescription {
+              font-size: 20px; }
+          body #app div #mainpage #portfolio #sectionThree {
+            height: 300px; }
+            body #app div #mainpage #portfolio #sectionThree #innerDiv {
+              margin-top: 75px;
+              height: 218px; }
+            body #app div #mainpage #portfolio #sectionThree #siteDescription {
+              font-size: 20px; }
+          body #app div #mainpage #portfolio #sectionFour {
+            height: 300px; }
+            body #app div #mainpage #portfolio #sectionFour #innerDiv {
+              margin-top: 75px;
+              height: 218px; }
+            body #app div #mainpage #portfolio #sectionFour #siteDescription {
+              font-size: 20px; }
         body #app div #mainpage footer nav {
           float: left;
           display: block;
@@ -832,6 +967,96 @@ body {
                 margin-right: 0; }
               body #app div #mainpage #portfolio #sectionOne #siteDescription:nth-child(n) {
                 margin-right: 0; }
+          body #app div #mainpage #portfolio #sectionTwo {
+            height: 420px; }
+            body #app div #mainpage #portfolio #sectionTwo:nth-child(n) {
+              margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionTwo #innerDiv {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 74.41059%;
+              margin-left: 12.79471%;
+              height: 200px; }
+              body #app div #mainpage #portfolio #sectionTwo #innerDiv:last-child {
+                margin-right: 0; }
+              body #app div #mainpage #portfolio #sectionTwo #innerDiv:nth-child(n) {
+                margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionTwo #siteDescription {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 82.94039%;
+              margin-left: 8.5298%;
+              text-align: center;
+              text-align: justify;
+              font-size: 16px;
+              padding-top: 30px;
+              height: 200px; }
+              body #app div #mainpage #portfolio #sectionTwo #siteDescription:last-child {
+                margin-right: 0; }
+              body #app div #mainpage #portfolio #sectionTwo #siteDescription:nth-child(n) {
+                margin-right: 0; }
+          body #app div #mainpage #portfolio #sectionThree {
+            height: 420px; }
+            body #app div #mainpage #portfolio #sectionThree:nth-child(n) {
+              margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionThree #innerDiv {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 74.41059%;
+              margin-left: 12.79471%;
+              height: 200px; }
+              body #app div #mainpage #portfolio #sectionThree #innerDiv:last-child {
+                margin-right: 0; }
+              body #app div #mainpage #portfolio #sectionThree #innerDiv:nth-child(n) {
+                margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionThree #siteDescription {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 82.94039%;
+              margin-left: 8.5298%;
+              text-align: center;
+              text-align: justify;
+              font-size: 16px;
+              padding-top: 30px;
+              height: 200px; }
+              body #app div #mainpage #portfolio #sectionThree #siteDescription:last-child {
+                margin-right: 0; }
+              body #app div #mainpage #portfolio #sectionThree #siteDescription:nth-child(n) {
+                margin-right: 0; }
+          body #app div #mainpage #portfolio #sectionFour {
+            height: 420px; }
+            body #app div #mainpage #portfolio #sectionFour:nth-child(n) {
+              margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionFour #innerDiv {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 74.41059%;
+              margin-left: 12.79471%;
+              height: 200px; }
+              body #app div #mainpage #portfolio #sectionFour #innerDiv:last-child {
+                margin-right: 0; }
+              body #app div #mainpage #portfolio #sectionFour #innerDiv:nth-child(n) {
+                margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionFour #siteDescription {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 82.94039%;
+              margin-left: 8.5298%;
+              text-align: center;
+              text-align: justify;
+              font-size: 16px;
+              padding-top: 30px;
+              height: 200px; }
+              body #app div #mainpage #portfolio #sectionFour #siteDescription:last-child {
+                margin-right: 0; }
+              body #app div #mainpage #portfolio #sectionFour #siteDescription:nth-child(n) {
+                margin-right: 0; }
         body #app div #mainpage footer {
           height: 175px; }
           body #app div #mainpage footer nav {
@@ -1014,6 +1239,93 @@ body {
               body #app div #mainpage #portfolio #sectionOne #siteDescription:last-child {
                 margin-right: 0; }
               body #app div #mainpage #portfolio #sectionOne #siteDescription:nth-child(n) {
+                margin-right: 0; }
+          body #app div #mainpage #portfolio #sectionTwo {
+            height: 420px; }
+            body #app div #mainpage #portfolio #sectionTwo:nth-child(n) {
+              margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionTwo #innerDiv {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 82.94039%;
+              height: 200px; }
+              body #app div #mainpage #portfolio #sectionTwo #innerDiv:last-child {
+                margin-right: 0; }
+              body #app div #mainpage #portfolio #sectionTwo #innerDiv:nth-child(n) {
+                margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionTwo #siteDescription {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 82.94039%;
+              margin-left: 8.5298%;
+              text-align: center;
+              text-align: justify;
+              font-size: 16px;
+              padding-top: 30px;
+              height: 200px; }
+              body #app div #mainpage #portfolio #sectionTwo #siteDescription:last-child {
+                margin-right: 0; }
+              body #app div #mainpage #portfolio #sectionTwo #siteDescription:nth-child(n) {
+                margin-right: 0; }
+          body #app div #mainpage #portfolio #sectionThree {
+            height: 420px; }
+            body #app div #mainpage #portfolio #sectionThree:nth-child(n) {
+              margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionThree #innerDiv {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 82.94039%;
+              height: 200px; }
+              body #app div #mainpage #portfolio #sectionThree #innerDiv:last-child {
+                margin-right: 0; }
+              body #app div #mainpage #portfolio #sectionThree #innerDiv:nth-child(n) {
+                margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionThree #siteDescription {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 82.94039%;
+              margin-left: 8.5298%;
+              text-align: center;
+              text-align: justify;
+              font-size: 16px;
+              padding-top: 30px;
+              height: 200px; }
+              body #app div #mainpage #portfolio #sectionThree #siteDescription:last-child {
+                margin-right: 0; }
+              body #app div #mainpage #portfolio #sectionThree #siteDescription:nth-child(n) {
+                margin-right: 0; }
+          body #app div #mainpage #portfolio #sectionFour {
+            height: 420px; }
+            body #app div #mainpage #portfolio #sectionFour:nth-child(n) {
+              margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionFour #innerDiv {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 82.94039%;
+              height: 200px; }
+              body #app div #mainpage #portfolio #sectionFour #innerDiv:last-child {
+                margin-right: 0; }
+              body #app div #mainpage #portfolio #sectionFour #innerDiv:nth-child(n) {
+                margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionFour #siteDescription {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 82.94039%;
+              margin-left: 8.5298%;
+              text-align: center;
+              text-align: justify;
+              font-size: 16px;
+              padding-top: 30px;
+              height: 200px; }
+              body #app div #mainpage #portfolio #sectionFour #siteDescription:last-child {
+                margin-right: 0; }
+              body #app div #mainpage #portfolio #sectionFour #siteDescription:nth-child(n) {
                 margin-right: 0; }
         body #app div #mainpage footer {
           height: 175px; }
