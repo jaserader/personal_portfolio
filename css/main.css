@@ -38,195 +38,6 @@ body {
         margin-right: 0; }
       body #app div:nth-child(n) {
         margin-right: 0; }
-      body #app div #homepage {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 100%;
-        background: #0B2540; }
-        body #app div #homepage:last-child {
-          margin-right: 0; }
-        body #app div #homepage #logo {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 76.11655%;
-          margin-left: 12.79471%;
-          height: 336px;
-          background: #0B2540 url("../img/nameLogo.svg") no-repeat 0px 0px;
-          margin-top: 30px; }
-          body #app div #homepage #logo:last-child {
-            margin-right: 0; }
-        body #app div #homepage #jobTitle {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 48.82117%;
-          margin-left: 30.79259%;
-          color: #fff;
-          font-size: 50px;
-          font-weight: lighter; }
-          body #app div #homepage #jobTitle:last-child {
-            margin-right: 0; }
-        body #app div #homepage #contactNav {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 100%; }
-          body #app div #homepage #contactNav:last-child {
-            margin-right: 0; }
-          body #app div #homepage #contactNav a {
-            float: left;
-            display: block;
-            margin-right: 2.35765%;
-            width: 48.82117%;
-            margin-left: 40.09008%;
-            text-decoration: none;
-            color: #fff;
-            height: 25px;
-            margin-top: 15px;
-            font-size: 30px;
-            margin-right: 0; }
-            body #app div #homepage #contactNav a:last-child {
-              margin-right: 0; }
-            body #app div #homepage #contactNav a:last-of-type {
-              margin-left: 43.502%;
-              margin-top: 20px; }
-            body #app div #homepage #contactNav a:hover {
-              color: red; }
-            body #app div #homepage #contactNav a i {
-              margin-right: 10px;
-              font-size: 30px; }
-        body #app div #homepage #enterBtn {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 14.70196%;
-          margin-left: 43.502%;
-          margin-top: 70px;
-          padding-left: 4.5%;
-          padding-top: 8px;
-          text-decoration: none;
-          font-size: 35px;
-          height: 60px;
-          color: #fff;
-          border: #fff 2px solid;
-          border-radius: 3px; }
-          body #app div #homepage #enterBtn:last-child {
-            margin-right: 0; }
-          body #app div #homepage #enterBtn:hover {
-            color: red;
-            border: red 2px solid; }
-        @media (max-width: 768px) and (min-width: 481px) {
-          body #app div #homepage #logo {
-            margin-left: 11.94173%;
-            margin-top: 100px;
-            height: 215px; }
-          body #app div #homepage #jobTitle {
-            float: left;
-            display: block;
-            margin-right: 2.35765%;
-            width: 82.94039%;
-            margin-left: 11.94173%; }
-            body #app div #homepage #jobTitle:last-child {
-              margin-right: 0; }
-          body #app div #homepage #contactNav a {
-            margin-left: 29.85432%; }
-            body #app div #homepage #contactNav a:last-of-type {
-              margin-left: 36.67816%; }
-          body #app div #homepage #enterBtn {
-            float: left;
-            display: block;
-            margin-right: 2.35765%;
-            width: 18.96686%;
-            margin-left: 40.94306%;
-            padding-left: 29px; }
-            body #app div #homepage #enterBtn:last-child {
-              margin-right: 0; } }
-        @media (max-width: 414px) and (min-width: 376px) {
-          body #app div #homepage #logo {
-            height: 110px; }
-          body #app div #homepage #jobTitle {
-            float: left;
-            display: block;
-            margin-right: 2.35765%;
-            width: 91.4702%;
-            margin-left: 7.67682%;
-            font-size: 30px; }
-            body #app div #homepage #jobTitle:last-child {
-              margin-right: 0; }
-            body #app div #homepage #jobTitle:nth-child(n) {
-              margin-right: 0; }
-          body #app div #homepage #contactNav a {
-            float: left;
-            display: block;
-            margin-right: 2.35765%;
-            width: 65.88078%;
-            margin-left: 25.58941%;
-            font-size: 20px;
-            margin-top: 10px; }
-            body #app div #homepage #contactNav a:last-child {
-              margin-right: 0; }
-            body #app div #homepage #contactNav a:last-of-type {
-              margin-left: 34.11922%;
-              margin-top: 10px; }
-            body #app div #homepage #contactNav a i {
-              font-size: 20px; }
-          body #app div #homepage #enterBtn {
-            float: left;
-            display: block;
-            margin-right: 2.35765%;
-            width: 31.76157%;
-            margin-left: 35.82518%;
-            padding-left: 34px;
-            padding-top: 5px;
-            font-size: 25px;
-            margin-top: 40px;
-            height: 43px; }
-            body #app div #homepage #enterBtn:last-child {
-              margin-right: 0; } }
-        @media (max-width: 375px) and (min-width: 300px) {
-          body #app div #homepage #logo {
-            height: 110px; }
-          body #app div #homepage #jobTitle {
-            float: left;
-            display: block;
-            margin-right: 2.35765%;
-            width: 95.7351%;
-            margin-left: 3.41192%;
-            font-size: 30px; }
-            body #app div #homepage #jobTitle:last-child {
-              margin-right: 0; }
-            body #app div #homepage #jobTitle:nth-child(n) {
-              margin-right: 0; }
-          body #app div #homepage #contactNav a {
-            float: left;
-            display: block;
-            margin-right: 2.35765%;
-            width: 65.88078%;
-            margin-left: 23.88345%;
-            font-size: 20px;
-            margin-top: 10px; }
-            body #app div #homepage #contactNav a:last-child {
-              margin-right: 0; }
-            body #app div #homepage #contactNav a:last-of-type {
-              margin-left: 32.41326%;
-              margin-top: 10px; }
-            body #app div #homepage #contactNav a i {
-              font-size: 20px; }
-          body #app div #homepage #enterBtn {
-            float: left;
-            display: block;
-            margin-right: 2.35765%;
-            width: 31.76157%;
-            margin-left: 35.82518%;
-            padding-left: 29px;
-            padding-top: 5px;
-            font-size: 25px;
-            margin-top: 40px;
-            height: 43px; }
-            body #app div #homepage #enterBtn:last-child {
-              margin-right: 0; } }
       body #app div #mainpage header {
         float: left;
         display: block;
@@ -1367,3 +1178,151 @@ body {
                 margin-left: 11.08875%; }
               body #app div #mainpage footer #downloads a i {
                 font-size: 45px; } }
+      body #app div #resumepage header {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        height: 110px;
+        background: #0B2540;
+        border-bottom: red 2px solid;
+        position: fixed;
+        top: 0px;
+        margin: auto;
+        z-index: 100000; }
+        body #app div #resumepage header:last-child {
+          margin-right: 0; }
+        body #app div #resumepage header #smallLogo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 23.23176%;
+          margin-left: 8.5298%;
+          background: #0B2540 url("../img/nameLogo.svg") no-repeat 0px 0px;
+          height: 78px; }
+          body #app div #resumepage header #smallLogo:last-child {
+            margin-right: 0; }
+        body #app div #resumepage header #headerNav {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 40.29137%;
+          margin-left: 17.05961%;
+          margin-top: 30px; }
+          body #app div #resumepage header #headerNav:last-child {
+            margin-right: 0; }
+          body #app div #resumepage header #headerNav a {
+            text-decoration: none;
+            font-size: 20px;
+            color: #fff;
+            margin: 0; }
+            body #app div #resumepage header #headerNav a:first-of-type {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 36.87945%;
+              margin-left: 34.11922%; }
+              body #app div #resumepage header #headerNav a:first-of-type:last-child {
+                margin-right: 0; }
+            body #app div #resumepage header #headerNav a i {
+              margin-right: 5px; }
+            body #app div #resumepage header #headerNav a:hover {
+              color: red; }
+        body #app div #resumepage header #brief {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 65.88078%;
+          margin-left: 10.23577%;
+          color: red;
+          font-weight: lighter;
+          font-size: 22px; }
+          body #app div #resumepage header #brief:last-child {
+            margin-right: 0; }
+          body #app div #resumepage header #brief:nth-child(n) {
+            margin-right: 0; }
+      body #app div #resumepage #downloadSpan {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 23.23176%;
+        margin-left: 17.05961%;
+        margin-top: 120px;
+        color: #fff; }
+        body #app div #resumepage #downloadSpan:last-child {
+          margin-right: 0; }
+      body #app div #resumepage #resumeImg {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 65.88078%;
+        margin-left: 17.05961%;
+        margin-top: 5px;
+        margin-bottom: 50px;
+        height: 1100px;
+        background: #0B2540 url("../img/resumePNG.png") no-repeat 0px 0px;
+        background-size: 100% 100%; }
+        body #app div #resumepage #resumeImg:last-child {
+          margin-right: 0; }
+        body #app div #resumepage #resumeImg:hover {
+          border: red 4px solid; }
+      body #app div #resumepage footer {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        height: 100px;
+        background: #fff;
+        border-top: red 2px solid;
+        border-bottom: red 2px solid; }
+        body #app div #resumepage footer:last-child {
+          margin-right: 0; }
+        body #app div #resumepage footer nav {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 31.76157%;
+          margin-left: 4.2649%; }
+          body #app div #resumepage footer nav:last-child {
+            margin-right: 0; }
+          body #app div #resumepage footer nav a {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 14.70196%;
+            font-size: 60px;
+            padding-top: 15px;
+            color: #0B2540; }
+            body #app div #resumepage footer nav a:last-child {
+              margin-right: 0; }
+            body #app div #resumepage footer nav a:hover {
+              color: red; }
+        body #app div #resumepage footer #copyright {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 14.70196%;
+          margin-left: 6.82384%;
+          margin-top: 50px;
+          color: #0B2540; }
+          body #app div #resumepage footer #copyright:last-child {
+            margin-right: 0; }
+        body #app div #resumepage footer #downloads {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 27.49666%;
+          margin-left: 8.5298%;
+          margin-top: 30px; }
+          body #app div #resumepage footer #downloads:last-child {
+            margin-right: 0; }
+          body #app div #resumepage footer #downloads a {
+            text-decoration: none;
+            color: #0B2540;
+            font-size: 20px; }
+            body #app div #resumepage footer #downloads a:last-of-type {
+              margin-left: 10px; }
+            body #app div #resumepage footer #downloads a:hover {
+              color: red; }
+            body #app div #resumepage footer #downloads a i {
+              font-size: 50px; }
