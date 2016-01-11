@@ -608,7 +608,176 @@ body {
             margin-right: 0; }
           body #app div #mainpage footer #downloads a {
             font-size: 14px; } }
-      @media (max-width: 380px) and (min-width: 300px) {
+      @media (max-width: 414px) and (min-width: 376px) {
+        body #app div #mainpage header {
+          height: 140px; }
+          body #app div #mainpage header #smallLogo {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 74.41059%;
+            margin-left: 25.58941%;
+            height: 60px; }
+            body #app div #mainpage header #smallLogo:last-child {
+              margin-right: 0; }
+          body #app div #mainpage header #headerNav {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 100%;
+            margin-left: 0%;
+            margin-top: 5px; }
+            body #app div #mainpage header #headerNav:last-child {
+              margin-right: 0; }
+            body #app div #mainpage header #headerNav a {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 65.88078%;
+              margin-left: 39.2371%;
+              font-size: 14px; }
+              body #app div #mainpage header #headerNav a:last-child {
+                margin-right: 0; }
+              body #app div #mainpage header #headerNav a:first-of-type {
+                float: left;
+                display: block;
+                margin-right: 2.35765%;
+                width: 65.88078%;
+                margin-left: 33.26624%; }
+                body #app div #mainpage header #headerNav a:first-of-type:last-child {
+                  margin-right: 0; }
+          body #app div #mainpage header #brief {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 91.4702%;
+            margin-left: 4.2649%;
+            margin-top: 10px;
+            font-size: 12px;
+            text-align: center; }
+            body #app div #mainpage header #brief:last-child {
+              margin-right: 0; }
+        body #app div #mainpage #heroImg {
+          height: 260px;
+          background-size: 100% 285px;
+          background-position: 0px 60px; }
+        body #app div #mainpage #aboutMe #headShot {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 40.29137%;
+          margin-left: 29.85432%;
+          height: 150px;
+          margin-top: 35px;
+          margin-bottom: 0px; }
+          body #app div #mainpage #aboutMe #headShot:last-child {
+            margin-right: 0; }
+        body #app div #mainpage #aboutMe #info {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 91.4702%;
+          margin-left: 4.2649%;
+          margin-top: 0px;
+          margin-bottom: 10px;
+          height: 350px; }
+          body #app div #mainpage #aboutMe #info:last-child {
+            margin-right: 0; }
+          body #app div #mainpage #aboutMe #info #resumeTitle {
+            margin-top: 5px;
+            font-size: 25px;
+            height: 33px; }
+            body #app div #mainpage #aboutMe #info #resumeTitle span:last-of-type {
+              margin-left: 32.41326%; }
+            body #app div #mainpage #aboutMe #info #resumeTitle i {
+              font-size: 25px; }
+          body #app div #mainpage #aboutMe #info #briefResume ul li {
+            font-size: 16px;
+            font-weight: lighter; }
+        body #app div #mainpage #socialNav {
+          height: 70px; }
+          body #app div #mainpage #socialNav nav {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 100%;
+            margin-left: 0%; }
+            body #app div #mainpage #socialNav nav:last-child {
+              margin-right: 0; }
+            body #app div #mainpage #socialNav nav a {
+              font-size: 45px;
+              padding-top: 8px; }
+              body #app div #mainpage #socialNav nav a:first-of-type {
+                margin-left: 20.47153%; }
+        body #app div #mainpage #portfolio {
+          height: 1800px; }
+          body #app div #mainpage #portfolio #portfolioTitle {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 24.08474%;
+            margin-left: 38.38412%;
+            font-size: 25px;
+            height: 30px; }
+            body #app div #mainpage #portfolio #portfolioTitle:last-child {
+              margin-right: 0; }
+          body #app div #mainpage #portfolio #sectionOne {
+            height: 420px; }
+            body #app div #mainpage #portfolio #sectionOne:nth-child(n) {
+              margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionOne #innerDiv {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 74.41059%;
+              margin-left: 12.79471%;
+              height: 200px; }
+              body #app div #mainpage #portfolio #sectionOne #innerDiv:last-child {
+                margin-right: 0; }
+              body #app div #mainpage #portfolio #sectionOne #innerDiv:nth-child(n) {
+                margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionOne #siteDescription {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 82.94039%;
+              margin-left: 8.5298%;
+              text-align: center;
+              font-size: 16px;
+              padding-top: 30px;
+              height: 200px; }
+              body #app div #mainpage #portfolio #sectionOne #siteDescription:last-child {
+                margin-right: 0; }
+              body #app div #mainpage #portfolio #sectionOne #siteDescription:nth-child(n) {
+                margin-right: 0; }
+        body #app div #mainpage footer {
+          height: 175px; }
+          body #app div #mainpage footer nav {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 100%; }
+            body #app div #mainpage footer nav:last-child {
+              margin-right: 0; }
+            body #app div #mainpage footer nav a {
+              font-size: 45px; }
+              body #app div #mainpage footer nav a:first-of-type {
+                margin-left: 17.05961%; }
+          body #app div #mainpage footer #downloads {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 100%;
+            margin-left: 0%; }
+            body #app div #mainpage footer #downloads:last-child {
+              margin-right: 0; }
+            body #app div #mainpage footer #downloads a {
+              font-size: 15px; }
+              body #app div #mainpage footer #downloads a:first-of-type {
+                margin-left: 15.35365%; }
+              body #app div #mainpage footer #downloads a i {
+                font-size: 45px; } }
+      @media (max-width: 375px) and (min-width: 300px) {
         body #app div #mainpage header {
           height: 140px; }
           body #app div #mainpage header #smallLogo {
@@ -750,7 +919,7 @@ body {
               body #app div #mainpage #portfolio #sectionOne #siteDescription:nth-child(n) {
                 margin-right: 0; }
         body #app div #mainpage footer {
-          height: 200px; }
+          height: 175px; }
           body #app div #mainpage footer nav {
             float: left;
             display: block;
