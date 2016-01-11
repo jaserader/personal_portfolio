@@ -668,7 +668,7 @@ body {
           width: 40.29137%;
           margin-left: 29.85432%;
           height: 150px;
-          margin-top: 15px;
+          margin-top: 35px;
           margin-bottom: 0px; }
           body #app div #mainpage #aboutMe #headShot:last-child {
             margin-right: 0; }
@@ -678,7 +678,9 @@ body {
           margin-right: 2.35765%;
           width: 91.4702%;
           margin-left: 4.2649%;
-          margin-top: 0px; }
+          margin-top: 0px;
+          margin-bottom: 10px;
+          height: 350px; }
           body #app div #mainpage #aboutMe #info:last-child {
             margin-right: 0; }
           body #app div #mainpage #aboutMe #info #resumeTitle {
@@ -691,4 +693,86 @@ body {
               font-size: 25px; }
           body #app div #mainpage #aboutMe #info #briefResume ul li {
             font-size: 16px;
-            font-weight: lighter; } }
+            font-weight: lighter; }
+        body #app div #mainpage #socialNav {
+          height: 70px; }
+          body #app div #mainpage #socialNav nav {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 100%;
+            margin-left: 0%; }
+            body #app div #mainpage #socialNav nav:last-child {
+              margin-right: 0; }
+            body #app div #mainpage #socialNav nav a {
+              font-size: 45px;
+              padding-top: 8px; }
+              body #app div #mainpage #socialNav nav a:first-of-type {
+                margin-left: 20.47153%; }
+        body #app div #mainpage #portfolio {
+          height: 1800px; }
+          body #app div #mainpage #portfolio #portfolioTitle {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 24.93772%;
+            margin-left: 38.38412%;
+            font-size: 25px;
+            height: 30px; }
+            body #app div #mainpage #portfolio #portfolioTitle:last-child {
+              margin-right: 0; }
+          body #app div #mainpage #portfolio #sectionOne {
+            height: 420px; }
+            body #app div #mainpage #portfolio #sectionOne:nth-child(n) {
+              margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionOne #innerDiv {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 82.94039%;
+              height: 200px; }
+              body #app div #mainpage #portfolio #sectionOne #innerDiv:last-child {
+                margin-right: 0; }
+              body #app div #mainpage #portfolio #sectionOne #innerDiv:nth-child(n) {
+                margin-right: 0; }
+            body #app div #mainpage #portfolio #sectionOne #siteDescription {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 82.94039%;
+              margin-left: 8.5298%;
+              text-align: center;
+              font-size: 16px;
+              padding-top: 30px;
+              height: 200px; }
+              body #app div #mainpage #portfolio #sectionOne #siteDescription:last-child {
+                margin-right: 0; }
+              body #app div #mainpage #portfolio #sectionOne #siteDescription:nth-child(n) {
+                margin-right: 0; }
+        body #app div #mainpage footer {
+          height: 200px; }
+          body #app div #mainpage footer nav {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 100%; }
+            body #app div #mainpage footer nav:last-child {
+              margin-right: 0; }
+            body #app div #mainpage footer nav a {
+              font-size: 45px; }
+              body #app div #mainpage footer nav a:first-of-type {
+                margin-left: 17.05961%; }
+          body #app div #mainpage footer #downloads {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 100%;
+            margin-left: 0%; }
+            body #app div #mainpage footer #downloads:last-child {
+              margin-right: 0; }
+            body #app div #mainpage footer #downloads a {
+              font-size: 15px; }
+              body #app div #mainpage footer #downloads a:first-of-type {
+                margin-left: 11.08875%; }
+              body #app div #mainpage footer #downloads a i {
+                font-size: 45px; } }
