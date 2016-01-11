@@ -10,6 +10,7 @@ html {
   font-weight: lighter; }
 
 body {
+  height: 100%;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -19,11 +20,14 @@ body {
     content: "";
     display: table; }
   body #app {
+    height: 100%;
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 100%; }
     body #app:last-child {
+      margin-right: 0; }
+    body #app:nth-child(n) {
       margin-right: 0; }
     body #app div {
       float: left;
@@ -31,6 +35,8 @@ body {
       margin-right: 2.35765%;
       width: 100%; }
       body #app div:last-child {
+        margin-right: 0; }
+      body #app div:nth-child(n) {
         margin-right: 0; }
       body #app div #homepage {
         float: left;
@@ -246,10 +252,12 @@ body {
         display: block;
         margin-right: 2.35765%;
         width: 100%;
-        background: #fff url("../img/landscape_3.svg") no-repeat fixed 0px 100px;
+        background: #fff url("../img/landscape_3.svg") no-repeat fixed 0px 110px;
         background-size: 100% 425px;
-        height: 506px; }
+        height: 500px; }
         body #app div #mainpage #heroImg:last-child {
+          margin-right: 0; }
+        body #app div #mainpage #heroImg:nth-child(n) {
           margin-right: 0; }
       body #app div #mainpage #aboutMe #headShot {
         float: left;
@@ -453,13 +461,19 @@ body {
               font-size: 50px; }
       @media (max-width: 768px) and (min-width: 481px) {
         body #app div #mainpage header {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
           height: 100px; }
+          body #app div #mainpage header:last-child {
+            margin-right: 0; }
           body #app div #mainpage header #smallLogo {
             float: left;
             display: block;
             margin-right: 2.35765%;
-            width: 40.29137%;
-            margin-left: 2.55894%; }
+            width: 31.76157%;
+            margin-left: 3.41192%; }
             body #app div #mainpage header #smallLogo:last-child {
               margin-right: 0; }
             body #app div #mainpage header #smallLogo:nth-child(n) {
@@ -469,7 +483,7 @@ body {
             display: block;
             margin-right: 2.35765%;
             width: 53.08608%;
-            margin-left: 0%;
+            margin-left: 11.08875%;
             margin-top: 25px; }
             body #app div #mainpage header #headerNav:last-child {
               margin-right: 0; }
@@ -480,7 +494,7 @@ body {
               display: block;
               margin-right: 2.35765%;
               width: 34.32051%;
-              margin-left: 62.26757%; }
+              margin-left: 63.12055%; }
               body #app div #mainpage header #headerNav a:last-child {
                 margin-right: 0; }
               body #app div #mainpage header #headerNav a:nth-child(n) {
@@ -496,7 +510,7 @@ body {
                 body #app div #mainpage header #headerNav a:first-of-type:nth-child(n) {
                   margin-right: 0; }
               body #app div #mainpage header #headerNav a span {
-                font-size: 14px; }
+                font-size: 16px; }
           body #app div #mainpage header #brief {
             float: left;
             display: block;
@@ -512,33 +526,44 @@ body {
           margin-right: 2.35765%;
           width: 100%;
           height: 365px;
-          background-position: 100% 20px; }
+          background-position: 0 55px;
+          background-size: 768px 365px; }
           body #app div #mainpage #heroImg:last-child {
             margin-right: 0; }
-        body #app div #mainpage #aboutMe #headShot {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 36.02647%;
-          margin-left: 4.2649%;
-          height: 300px;
-          margin-top: 70px; }
-          body #app div #mainpage #aboutMe #headShot:last-child {
-            margin-right: 0; }
-        body #app div #mainpage #aboutMe #info {
-          height: 185px; }
-          body #app div #mainpage #aboutMe #info #resumeTitle {
-            margin-top: 10px; }
-            body #app div #mainpage #aboutMe #info #resumeTitle span:last-of-type {
-              margin-left: 25.58941%; }
-          body #app div #mainpage #aboutMe #info #briefResume ul li {
-            font-size: 17px; }
-        body #app div #mainpage #socialNav nav {
+        body #app div #mainpage #aboutMe {
           float: left;
           display: block;
           margin-right: 2.35765%;
           width: 100%;
-          margin-left: 22.17749%; }
+          height: 100%; }
+          body #app div #mainpage #aboutMe:last-child {
+            margin-right: 0; }
+          body #app div #mainpage #aboutMe:nth-child(n) {
+            margin-right: 0; }
+          body #app div #mainpage #aboutMe #headShot {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 36.02647%;
+            margin-left: 4.2649%;
+            height: 300px;
+            margin-top: 70px; }
+            body #app div #mainpage #aboutMe #headShot:last-child {
+              margin-right: 0; }
+          body #app div #mainpage #aboutMe #info {
+            height: 185px; }
+            body #app div #mainpage #aboutMe #info #resumeTitle {
+              margin-top: 10px; }
+              body #app div #mainpage #aboutMe #info #resumeTitle span:last-of-type {
+                margin-left: 29.00133%; }
+            body #app div #mainpage #aboutMe #info #briefResume ul li {
+              font-size: 17px; }
+        body #app div #mainpage #socialNav nav {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 70.14568%;
+          margin-left: 29.85432%; }
           body #app div #mainpage #socialNav nav:last-child {
             margin-right: 0; }
           body #app div #mainpage #socialNav nav a {
