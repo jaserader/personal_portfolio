@@ -610,7 +610,7 @@ body {
             font-size: 14px; } }
       @media (max-width: 414px) and (min-width: 376px) {
         body #app div #mainpage header {
-          height: 140px; }
+          height: 145px; }
           body #app div #mainpage header #smallLogo {
             float: left;
             display: block;
@@ -658,9 +658,9 @@ body {
             body #app div #mainpage header #brief:last-child {
               margin-right: 0; }
         body #app div #mainpage #heroImg {
-          height: 260px;
+          height: 285px;
           background-size: 100% 285px;
-          background-position: 0px 60px; }
+          background-position: 0px 75px; }
         body #app div #mainpage #aboutMe #headShot {
           float: left;
           display: block;
