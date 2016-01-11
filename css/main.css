@@ -358,7 +358,8 @@ body {
           float: left;
           display: block;
           margin-right: 2.35765%;
-          width: 100%; }
+          width: 100%;
+          height: 100%; }
           body #app div #mainpage #aboutMe #info #briefResume:last-child {
             margin-right: 0; }
           body #app div #mainpage #aboutMe #info #briefResume ul li {
@@ -765,9 +766,11 @@ body {
               margin-left: 32.41326%; }
             body #app div #mainpage #aboutMe #info #resumeTitle i {
               font-size: 25px; }
-          body #app div #mainpage #aboutMe #info #briefResume ul li {
-            font-size: 16px;
-            font-weight: lighter; }
+          body #app div #mainpage #aboutMe #info #briefResume {
+            margin-bottom: 15px; }
+            body #app div #mainpage #aboutMe #info #briefResume ul li {
+              font-size: 16px;
+              font-weight: lighter; }
         body #app div #mainpage #socialNav {
           height: 70px; }
           body #app div #mainpage #socialNav nav {
