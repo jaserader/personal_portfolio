@@ -298,11 +298,10 @@ body {
             margin-right: 10px; }
           body #app div #mainpage #aboutMe #info #resumeTitle a {
             text-decoration: none;
-            color: red; }
-          body #app div #mainpage #aboutMe #info #resumeTitle i {
+            color: #fff;
             padding-top: 2px;
             font-size: 30px; }
-            body #app div #mainpage #aboutMe #info #resumeTitle i:hover {
+            body #app div #mainpage #aboutMe #info #resumeTitle a:hover {
               color: red; }
         body #app div #mainpage #aboutMe #info #briefResume {
           float: left;
@@ -531,7 +530,7 @@ body {
           body #app div #mainpage #aboutMe #info #resumeTitle {
             margin-top: 10px; }
             body #app div #mainpage #aboutMe #info #resumeTitle span:last-of-type {
-              margin-left: 17.05961%; }
+              margin-left: 25.58941%; }
           body #app div #mainpage #aboutMe #info #briefResume ul li {
             font-size: 17px; }
         body #app div #mainpage #socialNav nav {
