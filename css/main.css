@@ -131,15 +131,16 @@ body {
             body #app div #homepage #jobTitle:last-child {
               margin-right: 0; }
           body #app div #homepage #contactNav a {
-            margin-left: 32.41326%; }
+            margin-left: 29.85432%; }
             body #app div #homepage #contactNav a:last-of-type {
-              margin-left: 39.2371%; }
+              margin-left: 36.67816%; }
           body #app div #homepage #enterBtn {
             float: left;
             display: block;
             margin-right: 2.35765%;
             width: 18.96686%;
-            padding-left: 31px; }
+            margin-left: 40.94306%;
+            padding-left: 29px; }
             body #app div #homepage #enterBtn:last-child {
               margin-right: 0; } }
         @media (max-width: 375px) and (min-width: 300px) {
