@@ -363,6 +363,7 @@ body {
           body #app div #mainpage #aboutMe #info #briefResume:last-child {
             margin-right: 0; }
           body #app div #mainpage #aboutMe #info #briefResume ul li {
+            text-align: justify;
             font-size: 20px;
             margin-top: 20px; }
       body #app div #mainpage #socialNav {
@@ -452,7 +453,8 @@ body {
             height: 350px;
             color: #fff;
             padding-top: 100px;
-            font-size: 25px; }
+            font-size: 25px;
+            text-align: justify; }
             body #app div #mainpage #portfolio #sectionOne #siteDescription:last-child {
               margin-right: 0; }
       body #app div #mainpage footer {
@@ -822,6 +824,7 @@ body {
               width: 82.94039%;
               margin-left: 8.5298%;
               text-align: center;
+              text-align: justify;
               font-size: 16px;
               padding-top: 30px;
               height: 200px; }
@@ -1004,6 +1007,7 @@ body {
               width: 82.94039%;
               margin-left: 8.5298%;
               text-align: center;
+              text-align: justify;
               font-size: 16px;
               padding-top: 30px;
               height: 200px; }
