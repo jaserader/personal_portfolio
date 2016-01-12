@@ -4,6 +4,7 @@ import { Router, Route, IndexRoute } from 'react-router';
 
 import Homepage from "./homepage";
 import Mainpage from "./mainpage";
+import Resumepage from "./resumepage";
 
 class App extends React.Component {
 
@@ -19,8 +20,8 @@ class App extends React.Component {
 ReactDOM.render((
   <Router>
     <Route path="/" component={App}>
-      <IndexRoute component={Homepage} />
-    <Route path="main" component={Mainpage} />
+      <IndexRoute component={Mainpage} />
+    <Route path="resumepage" component={Resumepage} />
     </Route>
   </Router>
 ), document.getElementById('app'));

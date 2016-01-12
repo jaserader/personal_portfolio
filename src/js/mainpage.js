@@ -8,7 +8,7 @@ class Mainpage extends React.Component{
     return(
         <div id="mainpage">
           <header>
-            <div id="smallLogo"></div>
+            <Link to="#" id="smallLogo"></Link>
             <div id="headerNav"><a href="mailto:jaserader@icloud.com"><i className="fa fa-envelope-o"></i>jaserader@me.com</a><a href="tel:615-838-5484"><i className="fa fa-mobile"></i>615-838-5484</a></div>
             <div id="brief">Front-End Developer with a background in Information Technology and Business.</div>
           </header>
@@ -19,7 +19,13 @@ class Mainpage extends React.Component{
             <div id="headShot"></div>
             <div id="info">
 
-              <span id="resumeTitle">Resumé: <span>(download PDF)</span><a href="dist/img/resume.pdf" download="resume.pdf" className="fa fa-download"></a></span>
+              <div id="resumeTitle">
+                <span>Resumé:</span>
+                <Link to="/resumepage" id="view">(Click to View)</Link>
+                <a href="img/resume.pdf" download="resume.pdf" className="fa fa-download" id="downloadIcon">
+                  <div>(download PDF)</div>
+                </a>
+              </div>
 
               <div id="briefResume">
                 <ul>
@@ -39,7 +45,7 @@ class Mainpage extends React.Component{
               <a href="https://github.com/jaserader"><i className="fa fa-github-square"></i></a>
               <a href="https://www.linkedin.com/in/jaserader"><i className="fa fa-linkedin-square"></i></a>
               <a href="https://www.instagram.com/jase_rader/"><i className="fa fa-instagram"></i></a>
-              <a href="https://www.twitter.com"><i className="fa fa-twitter"></i></a>
+              <a href="https://twitter.com/jaser316r"><i className="fa fa-twitter"></i></a>
             </nav>
 
           </section>
@@ -49,31 +55,31 @@ class Mainpage extends React.Component{
             <span id="portfolioTitle">Portfolio</span>
 
             <section id="sectionOne">
-                <div id="innerDiv"></div>
+                <a href="http://jaserader.github.io/week10_finalproject_goals/#/?_k=vdlcgy" id="innerDiv"></a>
 
 
-              <div id="siteDescription"> Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+              <div id="siteDescription"> Goals: This is a simple social media site where a user can create an account and post personal life goals and be supported by other users that have accounts. This site was my final project at the Iron Yard. I worked on a team with another Front-End Developer and a Back-End Developer.</div>
             </section>
 
-            <section id="sectionOne">
-                <div id="innerDiv"></div>
+            <section id="sectionTwo">
+                <a href="http://jaserader.github.io/homework_week06_tuesday/" id="innerDiv"></a>
 
 
-              <div id="siteDescription"> Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+              <div id="siteDescription"> Address Book: The purpose of this project was to use Backbone.js to communicate with an API hosted on Heroku. We were given creative freedom when styling this project.</div>
             </section>
 
-            <section id="sectionOne">
-                <div id="innerDiv"></div>
+            <section id="sectionThree">
+                <a href="https://github.com/jaserader/homework_week04_tuesday" id="innerDiv"></a>
 
 
-              <div id="siteDescription"> Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+              <div id="siteDescription"> GitHub Repo: This is a project I did four weeks into The Iron Yard. We were told to make a pixel perfect replica of our personal GitHub repo list page. We had to use jQuery to make the project functional.</div>
             </section>
 
-            <section id="sectionOne">
-                <div id="innerDiv"></div>
+            <section id="sectionFour">
+                <a href="http://jaserader.github.io/homework_week02_thursday/" id="innerDiv"></a>
 
 
-              <div id="siteDescription"> Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+              <div id="siteDescription"> Project Skate: For this project we were given a Wire Frame and assigned to make this homepage pixel perfect using Bourbon and Neat's grid.</div>
             </section>
 
           </section>
@@ -83,13 +89,13 @@ class Mainpage extends React.Component{
               <a href="https://github.com/jaserader"><i className="fa fa-github-square"></i></a>
               <a href="https://www.linkedin.com/in/jaserader"><i className="fa fa-linkedin-square"></i></a>
               <a href="https://www.instagram.com/jase_rader/"><i className="fa fa-instagram"></i></a>
-              <a href="https://www.twitter.com"><i className="fa fa-twitter"></i></a>
+              <a href="https://twitter.com/jaser316"><i className="fa fa-twitter"></i></a>
             </nav>
 
             <span id="copyright">© 2016 Jase Rader</span>
 
             <div id="downloads">
-              <a><i className="fa fa-download"></i> Download Resumé</a>
+              <a href="img/resume.pdf" download="resume.pdf"><i className="fa fa-download"></i> Download Resumé</a>
               <a href="mailto:jaserader@icloud.com"><i className="fa fa-envelope-o"></i> Email Me</a>
             </div>
           </footer>
