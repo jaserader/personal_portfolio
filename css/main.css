@@ -148,23 +148,60 @@ body {
           display: block;
           margin-right: 2.35765%;
           width: 100%;
-          font-size: 30px;
           margin-top: 100px;
           height: 40px;
           border-bottom: red 2px solid; }
           body #app div #mainpage #aboutMe #info #resumeTitle:last-child {
             margin-right: 0; }
-          body #app div #mainpage #aboutMe #info #resumeTitle span:last-of-type {
-            margin-left: 60.56161%;
-            font-size: 12px;
-            margin-right: 10px; }
-          body #app div #mainpage #aboutMe #info #resumeTitle a {
+          body #app div #mainpage #aboutMe #info #resumeTitle span {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 14.70196%;
+            margin-left: 1.70596%;
+            font-size: 30px; }
+            body #app div #mainpage #aboutMe #info #resumeTitle span:last-child {
+              margin-right: 0; }
+          body #app div #mainpage #aboutMe #info #resumeTitle #view {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 18.96686%;
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            margin-top: 9px; }
+            body #app div #mainpage #aboutMe #info #resumeTitle #view:last-child {
+              margin-right: 0; }
+            body #app div #mainpage #aboutMe #info #resumeTitle #view:hover {
+              color: red; }
+          body #app div #mainpage #aboutMe #info #resumeTitle #downloadIcon {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 48.82117%;
+            margin-left: 8.5298%;
+            height: 40px;
             text-decoration: none;
             color: #fff;
             padding-top: 2px;
             font-size: 30px; }
-            body #app div #mainpage #aboutMe #info #resumeTitle a:hover {
+            body #app div #mainpage #aboutMe #info #resumeTitle #downloadIcon:last-child {
+              margin-right: 0; }
+            body #app div #mainpage #aboutMe #info #resumeTitle #downloadIcon:hover {
               color: red; }
+            body #app div #mainpage #aboutMe #info #resumeTitle #downloadIcon div {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 27.49666%;
+              margin-left: 61.41459%;
+              height: 20px;
+              font-size: 12px;
+              margin-right: 10px;
+              margin-top: 14px; }
+              body #app div #mainpage #aboutMe #info #resumeTitle #downloadIcon div:last-child {
+                margin-right: 0; }
         body #app div #mainpage #aboutMe #info #briefResume {
           float: left;
           display: block;
