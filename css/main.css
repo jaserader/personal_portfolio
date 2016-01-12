@@ -574,9 +574,44 @@ body {
           body #app div #mainpage #aboutMe #info {
             height: 185px; }
             body #app div #mainpage #aboutMe #info #resumeTitle {
-              margin-top: 10px; }
-              body #app div #mainpage #aboutMe #info #resumeTitle span:last-of-type {
-                margin-left: 29.00133%; }
+              margin-top: 10px;
+              height: 25px; }
+              body #app div #mainpage #aboutMe #info #resumeTitle span {
+                float: left;
+                display: block;
+                margin-right: 2.35765%;
+                width: 19.81984%;
+                font-size: 20px; }
+                body #app div #mainpage #aboutMe #info #resumeTitle span:last-child {
+                  margin-right: 0; }
+              body #app div #mainpage #aboutMe #info #resumeTitle #view {
+                float: left;
+                display: block;
+                margin-right: 2.35765%;
+                width: 27.49666%;
+                font-size: 15px;
+                margin-top: 3px; }
+                body #app div #mainpage #aboutMe #info #resumeTitle #view:last-child {
+                  margin-right: 0; }
+              body #app div #mainpage #aboutMe #info #resumeTitle #downloadIcon {
+                float: left;
+                display: block;
+                margin-right: 2.35765%;
+                width: 31.76157%;
+                margin-left: 14.50067%;
+                font-size: 20px; }
+                body #app div #mainpage #aboutMe #info #resumeTitle #downloadIcon:last-child {
+                  margin-right: 0; }
+                body #app div #mainpage #aboutMe #info #resumeTitle #downloadIcon div {
+                  float: left;
+                  display: block;
+                  margin-right: 2.35765%;
+                  width: 74.41059%;
+                  margin-left: 0%;
+                  height: 40px;
+                  margin-top: 5px; }
+                  body #app div #mainpage #aboutMe #info #resumeTitle #downloadIcon div:last-child {
+                    margin-right: 0; }
             body #app div #mainpage #aboutMe #info #briefResume ul li {
               font-size: 17px; }
         body #app div #mainpage #socialNav nav {
@@ -747,13 +782,44 @@ body {
           body #app div #mainpage #aboutMe #info:last-child {
             margin-right: 0; }
           body #app div #mainpage #aboutMe #info #resumeTitle {
-            margin-top: 5px;
-            font-size: 25px;
-            height: 33px; }
-            body #app div #mainpage #aboutMe #info #resumeTitle span:last-of-type {
-              margin-left: 32.41326%; }
-            body #app div #mainpage #aboutMe #info #resumeTitle i {
-              font-size: 25px; }
+            margin-top: 10px;
+            height: 25px; }
+            body #app div #mainpage #aboutMe #info #resumeTitle span {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 19.81984%;
+              font-size: 20px; }
+              body #app div #mainpage #aboutMe #info #resumeTitle span:last-child {
+                margin-right: 0; }
+            body #app div #mainpage #aboutMe #info #resumeTitle #view {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 27.49666%;
+              font-size: 15px;
+              margin-top: 3px; }
+              body #app div #mainpage #aboutMe #info #resumeTitle #view:last-child {
+                margin-right: 0; }
+            body #app div #mainpage #aboutMe #info #resumeTitle #downloadIcon {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 31.76157%;
+              margin-left: 14.50067%;
+              font-size: 20px; }
+              body #app div #mainpage #aboutMe #info #resumeTitle #downloadIcon:last-child {
+                margin-right: 0; }
+              body #app div #mainpage #aboutMe #info #resumeTitle #downloadIcon div {
+                float: left;
+                display: block;
+                margin-right: 2.35765%;
+                width: 74.41059%;
+                margin-left: 0%;
+                height: 40px;
+                margin-top: 5px; }
+                body #app div #mainpage #aboutMe #info #resumeTitle #downloadIcon div:last-child {
+                  margin-right: 0; }
           body #app div #mainpage #aboutMe #info #briefResume {
             margin-bottom: 15px; }
             body #app div #mainpage #aboutMe #info #briefResume ul li {
@@ -1023,13 +1089,45 @@ body {
           body #app div #mainpage #aboutMe #info:last-child {
             margin-right: 0; }
           body #app div #mainpage #aboutMe #info #resumeTitle {
-            margin-top: 5px;
-            font-size: 25px;
-            height: 33px; }
-            body #app div #mainpage #aboutMe #info #resumeTitle span:last-of-type {
-              margin-left: 32.41326%; }
-            body #app div #mainpage #aboutMe #info #resumeTitle i {
-              font-size: 25px; }
+            margin-top: 10px;
+            height: 25px; }
+            body #app div #mainpage #aboutMe #info #resumeTitle span {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 19.81984%;
+              font-size: 20px; }
+              body #app div #mainpage #aboutMe #info #resumeTitle span:last-child {
+                margin-right: 0; }
+            body #app div #mainpage #aboutMe #info #resumeTitle #view {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 27.49666%;
+              margin-left: 1.70596%;
+              font-size: 14px;
+              margin-top: 3px; }
+              body #app div #mainpage #aboutMe #info #resumeTitle #view:last-child {
+                margin-right: 0; }
+            body #app div #mainpage #aboutMe #info #resumeTitle #downloadIcon {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 31.76157%;
+              margin-left: 11.08875%;
+              font-size: 20px; }
+              body #app div #mainpage #aboutMe #info #resumeTitle #downloadIcon:last-child {
+                margin-right: 0; }
+              body #app div #mainpage #aboutMe #info #resumeTitle #downloadIcon div {
+                float: left;
+                display: block;
+                margin-right: 2.35765%;
+                width: 82.94039%;
+                margin-left: 0%;
+                height: 40px;
+                margin-top: 5px; }
+                body #app div #mainpage #aboutMe #info #resumeTitle #downloadIcon div:last-child {
+                  margin-right: 0; }
           body #app div #mainpage #aboutMe #info #briefResume ul li {
             font-size: 16px;
             font-weight: lighter; }
