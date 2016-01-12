@@ -1461,3 +1461,359 @@ body {
               color: red; }
             body #app div #resumepage footer #downloads a i {
               font-size: 50px; }
+      @media (max-width: 768px) and (min-width: 481px) {
+        body #app div #resumepage header {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          height: 105px; }
+          body #app div #resumepage header:last-child {
+            margin-right: 0; }
+          body #app div #resumepage header #smallLogo {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 31.76157%;
+            margin-left: 3.41192%; }
+            body #app div #resumepage header #smallLogo:last-child {
+              margin-right: 0; }
+            body #app div #resumepage header #smallLogo:nth-child(n) {
+              margin-right: 0; }
+          body #app div #resumepage header #headerNav {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 53.08608%;
+            margin-left: 11.08875%;
+            margin-top: 25px; }
+            body #app div #resumepage header #headerNav:last-child {
+              margin-right: 0; }
+            body #app div #resumepage header #headerNav:nth-child(n) {
+              margin-right: 0; }
+            body #app div #resumepage header #headerNav a {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 34.32051%;
+              margin-left: 63.12055%; }
+              body #app div #resumepage header #headerNav a:last-child {
+                margin-right: 0; }
+              body #app div #resumepage header #headerNav a:nth-child(n) {
+                margin-right: 0; }
+              body #app div #resumepage header #headerNav a:first-of-type {
+                float: left;
+                display: block;
+                margin-right: 2.35765%;
+                width: 48.82117%;
+                margin-left: 51.17883%; }
+                body #app div #resumepage header #headerNav a:first-of-type:last-child {
+                  margin-right: 0; }
+                body #app div #resumepage header #headerNav a:first-of-type:nth-child(n) {
+                  margin-right: 0; }
+              body #app div #resumepage header #headerNav a span {
+                font-size: 16px; }
+          body #app div #resumepage header #brief {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 91.4702%;
+            margin-left: 8.5298%;
+            color: red;
+            font-size: 18px; }
+            body #app div #resumepage header #brief:last-child {
+              margin-right: 0; }
+        body #app div #resumepage #downloadSpan {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 23.23176%;
+          margin-left: 12.79471%;
+          margin-top: 110px;
+          color: #fff; }
+          body #app div #resumepage #downloadSpan:last-child {
+            margin-right: 0; }
+        body #app div #resumepage #resumeImg {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 74.41059%;
+          margin-left: 12.79471%;
+          margin-top: 5px;
+          margin-bottom: 50px;
+          height: 800px;
+          background: #0B2540 url("../img/resumePNG.png") no-repeat 0px 0px;
+          background-size: 100% 100%; }
+          body #app div #resumepage #resumeImg:last-child {
+            margin-right: 0; }
+          body #app div #resumepage #resumeImg:hover {
+            border: red 4px solid; }
+        body #app div #resumepage footer nav {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 31.76157%; }
+          body #app div #resumepage footer nav:last-child {
+            margin-right: 0; }
+          body #app div #resumepage footer nav a {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 20.67282%;
+            font-size: 45px; }
+            body #app div #resumepage footer nav a:last-child {
+              margin-right: 0; }
+        body #app div #resumepage footer #copyright {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 14.70196%;
+          margin-left: 4.2649%;
+          margin-top: 40px;
+          color: #0B2540;
+          font-size: 12px; }
+          body #app div #resumepage footer #copyright:last-child {
+            margin-right: 0; }
+        body #app div #resumepage footer #downloads {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 33.46753%;
+          margin-left: 4.2649%;
+          margin-top: 20px; }
+          body #app div #resumepage footer #downloads:last-child {
+            margin-right: 0; }
+          body #app div #resumepage footer #downloads a {
+            font-size: 12px; }
+            body #app div #resumepage footer #downloads a i {
+              font-size: 45px; } }
+      @media (max-width: 414px) and (min-width: 376px) {
+        body #app div #resumepage header {
+          height: 145px; }
+          body #app div #resumepage header #smallLogo {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 74.41059%;
+            margin-left: 25.58941%;
+            height: 60px; }
+            body #app div #resumepage header #smallLogo:last-child {
+              margin-right: 0; }
+          body #app div #resumepage header #headerNav {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 100%;
+            margin-left: 0%;
+            margin-top: 5px; }
+            body #app div #resumepage header #headerNav:last-child {
+              margin-right: 0; }
+            body #app div #resumepage header #headerNav a {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 65.88078%;
+              margin-left: 39.2371%;
+              font-size: 14px; }
+              body #app div #resumepage header #headerNav a:last-child {
+                margin-right: 0; }
+              body #app div #resumepage header #headerNav a:first-of-type {
+                float: left;
+                display: block;
+                margin-right: 2.35765%;
+                width: 65.88078%;
+                margin-left: 33.26624%; }
+                body #app div #resumepage header #headerNav a:first-of-type:last-child {
+                  margin-right: 0; }
+          body #app div #resumepage header #brief {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 91.4702%;
+            margin-left: 4.2649%;
+            margin-top: 10px;
+            font-size: 12px;
+            text-align: center; }
+            body #app div #resumepage header #brief:last-child {
+              margin-right: 0; }
+        body #app div #resumepage #downloadSpan {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 40.29137%;
+          margin-left: 4.2649%;
+          margin-top: 150px;
+          font-size: 15px;
+          color: #fff; }
+          body #app div #resumepage #downloadSpan:last-child {
+            margin-right: 0; }
+        body #app div #resumepage #resumeImg {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 91.4702%;
+          margin-left: 4.2649%;
+          margin-top: 5px;
+          margin-bottom: 50px;
+          height: 500px;
+          background: #0B2540 url("../img/resumePNG.png") no-repeat 0px 0px;
+          background-size: 100% 100%; }
+          body #app div #resumepage #resumeImg:last-child {
+            margin-right: 0; }
+          body #app div #resumepage #resumeImg:hover {
+            border: red 4px solid; }
+        body #app div #resumepage footer {
+          height: 175px; }
+          body #app div #resumepage footer nav {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 95.7351%; }
+            body #app div #resumepage footer nav:last-child {
+              margin-right: 0; }
+            body #app div #resumepage footer nav:nth-child(n) {
+              margin-right: 0; }
+            body #app div #resumepage footer nav a {
+              font-size: 45px; }
+              body #app div #resumepage footer nav a:first-of-type {
+                margin-left: 17.05961%; }
+          body #app div #resumepage footer #copyright {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 57.35098%;
+            margin-left: 36.67816%;
+            margin-top: 20px;
+            color: #0B2540;
+            font-size: 12px; }
+            body #app div #resumepage footer #copyright:last-child {
+              margin-right: 0; }
+          body #app div #resumepage footer #downloads {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 95.7351%;
+            margin-left: 0%;
+            margin-top: 20px; }
+            body #app div #resumepage footer #downloads:last-child {
+              margin-right: 0; }
+            body #app div #resumepage footer #downloads a {
+              font-size: 15px; }
+              body #app div #resumepage footer #downloads a:first-of-type {
+                margin-left: 15.35365%; }
+              body #app div #resumepage footer #downloads a i {
+                font-size: 45px; } }
+      @media (max-width: 375px) and (min-width: 300px) {
+        body #app div #resumepage header {
+          height: 145px; }
+          body #app div #resumepage header #smallLogo {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 65.88078%;
+            margin-left: 22.17749%;
+            height: 60px; }
+            body #app div #resumepage header #smallLogo:last-child {
+              margin-right: 0; }
+          body #app div #resumepage header #headerNav {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 100%;
+            margin-left: 0%;
+            margin-top: 5px; }
+            body #app div #resumepage header #headerNav:last-child {
+              margin-right: 0; }
+            body #app div #resumepage header #headerNav a {
+              float: left;
+              display: block;
+              margin-right: 2.35765%;
+              width: 65.88078%;
+              margin-left: 37.53114%;
+              font-size: 14px; }
+              body #app div #resumepage header #headerNav a:last-child {
+                margin-right: 0; }
+              body #app div #resumepage header #headerNav a:first-of-type {
+                float: left;
+                display: block;
+                margin-right: 2.35765%;
+                width: 65.88078%;
+                margin-left: 31.56028%; }
+                body #app div #resumepage header #headerNav a:first-of-type:last-child {
+                  margin-right: 0; }
+          body #app div #resumepage header #brief {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 91.4702%;
+            margin-left: 4.2649%;
+            margin-top: 10px;
+            font-size: 12px;
+            text-align: center; }
+            body #app div #resumepage header #brief:last-child {
+              margin-right: 0; }
+        body #app div #resumepage #downloadSpan {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 40.29137%;
+          margin-left: 4.2649%;
+          margin-top: 150px;
+          font-size: 15px;
+          color: #fff; }
+          body #app div #resumepage #downloadSpan:last-child {
+            margin-right: 0; }
+        body #app div #resumepage #resumeImg {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 91.4702%;
+          margin-left: 4.2649%;
+          margin-top: 5px;
+          margin-bottom: 50px;
+          height: 450px;
+          background: #0B2540 url("../img/resumePNG.png") no-repeat 0px 0px;
+          background-size: 100% 100%; }
+          body #app div #resumepage #resumeImg:last-child {
+            margin-right: 0; }
+          body #app div #resumepage #resumeImg:hover {
+            border: red 4px solid; }
+        body #app div #resumepage footer {
+          height: 175px; }
+          body #app div #resumepage footer nav {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 91.4702%; }
+            body #app div #resumepage footer nav:last-child {
+              margin-right: 0; }
+            body #app div #resumepage footer nav a {
+              font-size: 45px; }
+              body #app div #resumepage footer nav a:first-of-type {
+                margin-left: 19.61855%; }
+          body #app div #resumepage footer #copyright {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 57.35098%;
+            margin-left: 35.82518%;
+            margin-top: 15px;
+            color: #0B2540;
+            font-size: 12px; }
+            body #app div #resumepage footer #copyright:last-child {
+              margin-right: 0; }
+          body #app div #resumepage footer #downloads {
+            float: left;
+            display: block;
+            margin-right: 2.35765%;
+            width: 100%;
+            margin-left: 0%;
+            margin-top: 15px; }
+            body #app div #resumepage footer #downloads:last-child {
+              margin-right: 0; }
+            body #app div #resumepage footer #downloads a {
+              font-size: 15px; }
+              body #app div #resumepage footer #downloads a:first-of-type {
+                margin-left: 11.08875%; }
+              body #app div #resumepage footer #downloads a i {
+                font-size: 45px; } }
