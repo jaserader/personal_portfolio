@@ -80,8 +80,8 @@ body {
               float: left;
               display: block;
               margin-right: 2.35765%;
-              width: 36.87945%;
-              margin-left: 34.11922%; }
+              width: 45.40925%;
+              margin-left: 25.58941%; }
               body #app div #mainpage header #headerNav a:first-of-type:last-child {
                 margin-right: 0; }
               body #app div #mainpage header #headerNav a:first-of-type:nth-child(n) {
@@ -160,7 +160,7 @@ body {
             display: block;
             margin-right: 2.35765%;
             width: 14.70196%;
-            margin-left: 1.70596%;
+            margin-left: 0%;
             font-size: 30px; }
             body #app div #mainpage #aboutMe #info #resumeTitle span:last-child {
               margin-right: 0; }
@@ -168,7 +168,8 @@ body {
             float: left;
             display: block;
             margin-right: 2.35765%;
-            width: 18.96686%;
+            width: 21.5258%;
+            margin-left: 1.70596%;
             text-decoration: none;
             color: #fff;
             font-size: 20px;
@@ -259,7 +260,7 @@ body {
           float: left;
           display: block;
           margin-right: 2.35765%;
-          width: 7.87811%;
+          width: 9.15758%;
           margin-left: 46.91392%;
           font-size: 30px;
           margin-top: 40px;
@@ -474,7 +475,7 @@ body {
           body #app div #mainpage footer #downloads a {
             text-decoration: none;
             color: #0B2540;
-            font-size: 20px; }
+            font-size: 18px; }
             body #app div #mainpage footer #downloads a:last-of-type {
               margin-left: 10px; }
             body #app div #mainpage footer #downloads a:hover {
@@ -1344,7 +1345,7 @@ body {
           display: block;
           margin-right: 2.35765%;
           width: 40.29137%;
-          margin-left: 17.05961%;
+          margin-left: 18.76557%;
           margin-top: 30px; }
           body #app div #resumepage header #headerNav:last-child {
             margin-right: 0; }
@@ -1357,9 +1358,11 @@ body {
               float: left;
               display: block;
               margin-right: 2.35765%;
-              width: 36.87945%;
-              margin-left: 34.11922%; }
+              width: 45.40925%;
+              margin-left: 25.58941%; }
               body #app div #resumepage header #headerNav a:first-of-type:last-child {
+                margin-right: 0; }
+              body #app div #resumepage header #headerNav a:first-of-type:nth-child(n) {
                 margin-right: 0; }
             body #app div #resumepage header #headerNav a i {
               margin-right: 5px; }
@@ -1370,7 +1373,7 @@ body {
           display: block;
           margin-right: 2.35765%;
           width: 65.88078%;
-          margin-left: 10.23577%;
+          margin-left: 9.80927%;
           color: red;
           font-weight: lighter;
           font-size: 22px; }
@@ -1478,7 +1481,7 @@ body {
           body #app div #resumepage footer #downloads a {
             text-decoration: none;
             color: #0B2540;
-            font-size: 20px; }
+            font-size: 18px; }
             body #app div #resumepage footer #downloads a:last-of-type {
               margin-left: 10px; }
             body #app div #resumepage footer #downloads a:hover {
