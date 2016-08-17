@@ -2,28 +2,21 @@ import React from 'react';
 import { Link } from "react-router";
 import $ from 'jquery';
 
-class Resumepage extends React.Component{
+class Contactpage extends React.Component{
 
   render(){
     return(
-      <div id="resumepage">
+      <div id="contactpage">
         <header>
           <a href="#"><h1>Jase Rader</h1></a>
         </header>
 
-        <div className="resume-container">
+        <div className="contact-container">  
           <div>
             <div id="smallLogo"></div>
             <div id="headerNav"><a href="mailto:jaserader@icloud.com"><i className="fa fa-envelope-o"></i>jaserader@me.com</a><a href="tel:615-838-5484"><i className="fa fa-mobile"></i>615-838-5484</a></div>
             <div id="brief">Front-End Developer with a background in Information Technology and Business.</div>
           </div>
-
-          <div id="nav">
-            <Link to="#" id="back" className="fa fa-arrow-left">Back</Link>
-            <div id="downloadSpan">Click to Download:</div>
-          </div>
-
-          <a href="img/resume.pdf" download="resume.pdf" id="resumeImg"> </a>
 
           <footer>
             <nav>
@@ -47,4 +40,4 @@ class Resumepage extends React.Component{
   }
 }
 
-export default Resumepage;
+export default Contactpage;

@@ -9,98 +9,173 @@ html {
   font-family: 'Assistant', sans-serif;
   font-weight: lighter; }
 
-body {
-  height: 100%;
+#app {
   max-width: 100%;
   margin-left: auto;
-  margin-right: auto; }
-  body::after {
+  margin-right: auto;
+  background-image: url("../img/mountain.svg");
+  background-size: cover;
+  height: 100vh; }
+  #app::after {
     clear: both;
     content: "";
     display: table; }
-  body #background-image {
-    background-image: url("../img/mountain-background.png");
-    background-size: 100% 100%;
-    height: 977px;
-    width: auto;
-    position: relative;
-    z-index: 1;
-    opacity: .5;
-    border-bottom: 3px solid gray; }
-  body .landing-content {
+  #app header {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 100%;
-    padding-bottom: 0px;
-    position: relative;
-    z-index: 10;
-    top: -450px; }
-    body .landing-content:last-child {
+    border-bottom: 1px solid black;
+    padding: 10px 0 10px 0;
+    background: black; }
+    #app header:last-child {
       margin-right: 0; }
-    body .landing-content .name-container {
+    #app header a {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 40.29137%;
-      text-align: center;
-      position: relative;
-      top: -400px; }
-      body .landing-content .name-container:last-child {
+      width: 48.82117%;
+      margin-left: 8.5298%;
+      text-decoration: none;
+      color: #fff; }
+      #app header a:last-child {
         margin-right: 0; }
-      body .landing-content .name-container h1 {
-        font-size: 118px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        font-weight: 200; }
-      body .landing-content .name-container h2 {
-        font-size: 30px;
+      #app header a h1 {
         margin-top: 0px;
         margin-bottom: 0px; }
-    body .landing-content .nav {
+  #app .nav {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    background: #fff;
+    opacity: .95;
+    position: absolute;
+    bottom: 0; }
+    #app .nav:last-child {
+      margin-right: 0; }
+    #app .nav ul {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 100%;
-      background: #fff;
-      opacity: .90;
-      position: relative;
-      margin-bottom: 200px; }
-      body .landing-content .nav:last-child {
+      padding: 0; }
+      #app .nav ul:last-child {
         margin-right: 0; }
-      body .landing-content .nav ul {
+      #app .nav ul a {
         float: left;
         display: block;
         margin-right: 2.35765%;
-        width: 100%;
-        padding: 0; }
-        body .landing-content .nav ul:last-child {
+        width: 18.11388%;
+        text-align: center;
+        font-size: 26px;
+        font-weight: 200;
+        color: black;
+        text-decoration: none; }
+        #app .nav ul a:last-child {
           margin-right: 0; }
-        body .landing-content .nav ul a {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 23.23176%;
-          text-align: center;
-          font-size: 45px;
-          font-weight: 200;
-          color: black;
-          text-decoration: none; }
-          body .landing-content .nav ul a:last-child {
-            margin-right: 0; }
-          body .landing-content .nav ul a:hover {
-            color: #5DABF8; }
-    body .landing-content .brief-resume {
+        #app .nav ul a:hover {
+          color: #1F66BA; }
+
+#mainpage {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  #mainpage:last-child {
+    margin-right: 0; }
+  #mainpage .landing-content {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    #mainpage .landing-content:last-child {
+      margin-right: 0; }
+    #mainpage .landing-content .name-container {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%; }
-      body .landing-content .brief-resume:last-child {
+      width: 48.82117%;
+      text-align: center;
+      position: relative;
+      top: 100px; }
+      #mainpage .landing-content .name-container:last-child {
         margin-right: 0; }
-      body .landing-content .brief-resume ul {
-        padding: 0;
-        text-align: center; }
-        body .landing-content .brief-resume ul li {
-          list-style: none;
-          font-size: 24px;
-          margin-bottom: 10px; }
+      #mainpage .landing-content .name-container h1 {
+        font-size: 118px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: 200; }
+      #mainpage .landing-content .name-container h2 {
+        font-size: 30px;
+        margin-top: 0px;
+        margin-bottom: 0px; }
+
+#aboutpage {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  #aboutpage:last-child {
+    margin-right: 0; }
+  #aboutpage .about-container {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    background: #fff;
+    opacity: .925;
+    padding: 75px 0 50px 0;
+    height: 90vh;
+    border-radius: 5px; }
+    #aboutpage .about-container:last-child {
+      margin-right: 0; }
+    #aboutpage .about-container .column {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      #aboutpage .about-container .column:last-child {
+        margin-right: 0; }
+    #aboutpage .about-container .headshot {
+      margin-left: 27.72186%;
+      background-image: url("../img/headshot.jpg");
+      background-size: cover;
+      height: 350px;
+      width: 350px;
+      border-radius: 3px; }
+    #aboutpage .about-container p {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 82.94039%;
+      font-size: 20px;
+      margin: 0 0 30px 0; }
+      #aboutpage .about-container p:last-child {
+        margin-right: 0; }
+
+#resumepage .resume-container {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background: #fff;
+  opacity: .925;
+  padding: 75px 0 50px 0;
+  height: 90vh;
+  border-radius: 5px; }
+  #resumepage .resume-container:last-child {
+    margin-right: 0; }
+
+#contactpage .contact-container {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background: #fff;
+  opacity: .925;
+  padding: 75px 0 50px 0;
+  height: 90vh;
+  border-radius: 5px; }
+  #contactpage .contact-container:last-child {
+    margin-right: 0; }

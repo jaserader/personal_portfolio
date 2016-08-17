@@ -6,37 +6,73 @@
 * {
   box-sizing: border-box;
   font-family: 'Assistant', sans-serif;
+  // font-family: 'Quicksand', sans-serif;
   font-weight: lighter;
 }
 
-body{
-  height: 100%;
+#app{
   @include outer-container(100%);
+  background-image: url("../img/mountain.svg");
+  background-size: cover;
+  height: 100vh;
 
-  #background-image{
-    // @include span-columns(12);
-    background-image: url("../img/mountain-background.png");
-    background-size: 100% 100%;
-    height: 977px;
-    width: auto;
-    position: relative;
-    z-index: 1;
-    opacity: .5;
-    border-bottom: 3px solid gray;
+  header{
+    @include span-columns(12);
+    border-bottom: 1px solid black;
+    padding: 10px 0 10px 0;
+    background: black;
+
+    a{
+      @include span-columns(6);
+      @include shift(1);
+      text-decoration: none;
+      color: #fff;
+
+      h1{
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+    }
   }
+
+  .nav{
+    @include span-columns(12);
+    background: #fff;
+    opacity: .95;
+    position: absolute;
+    bottom: 0;
+
+    ul{
+      @include span-columns(12);
+      padding: 0;
+
+      a{
+        @include span-columns(2.4);
+        text-align: center;
+        font-size: 26px;
+        font-weight: 200;
+        color: black;
+        text-decoration: none;
+
+        &:hover{
+          color: #1F66BA;
+        }
+      }
+    }
+  }
+}
+
+#mainpage{
+  @include span-columns(12);
 
   .landing-content{
     @include span-columns(12);
-    padding-bottom: 0px;
-    position: relative;
-    z-index: 10;
-    top: -450px;
 
     .name-container{
-      @include span-columns(5);
+      @include span-columns(6);
       text-align: center;
       position: relative;
-      top: -400px;
+      top: 100px;
 
       h1{
         font-size: 118px;
@@ -51,52 +87,59 @@ body{
         margin-bottom: 0px;
       }
     }
+  }
+}
 
-    .nav{
-      @include span-columns(12);
-      background: #fff;
-      opacity: .90;
-      position: relative;
-      margin-bottom: 200px;
-      // height: 250px;
-      // display: none;
-      // top: -100px;
+#aboutpage{
+  @include span-columns(12);
 
-      ul{
-        @include span-columns(12);
-        padding: 0;
+  .about-container{
+    @include span-columns(12);
+    background: #fff;
+    opacity: .925;
+    padding: 75px 0 50px 0;
+    height: 90vh;
+    border-radius: 5px;
 
-        a{
-          @include span-columns(3);
-          text-align: center;
-          font-size: 45px;
-          font-weight: 200;
-          color: black;
-          text-decoration: none;
-
-          &:hover{
-            color: #5DABF8;
-            // background: black;
-            // opacity: .5;
-            // border-radius: 10px;
-          }
-        }
-      }
+    .column{
+      @include span-columns(6);
     }
 
-    .brief-resume{
-      @include span-columns(12);
-
-      ul{
-        padding: 0;
-        text-align: center;
-
-        li{
-          list-style: none;
-          font-size: 24px;
-          margin-bottom: 10px;
-        }
-      }
+    .headshot{
+      @include shift(3.25);
+      background-image: url("../img/headshot.jpg");
+      background-size: cover;
+      height: 350px;
+      width: 350px;
+      border-radius: 3px;
     }
+
+    p{
+      @include span-columns(10);
+      font-size: 20px;
+      margin: 0 0 30px 0;
+    }
+  }
+}
+
+#resumepage{
+  .resume-container{
+    @include span-columns(12);
+    background: #fff;
+    opacity: .925;
+    padding: 75px 0 50px 0;
+    height: 90vh;
+    border-radius: 5px;
+  }
+}
+
+#contactpage{
+  .contact-container{
+    @include span-columns(12);
+    background: #fff;
+    opacity: .925;
+    padding: 75px 0 50px 0;
+    height: 90vh;
+    border-radius: 5px;
   }
 }
