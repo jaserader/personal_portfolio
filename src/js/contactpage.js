@@ -9,7 +9,7 @@ class Contactpage extends React.Component{
       <div id="contactpage">
         <div className="background-image"></div>
         <div className="background-filter"></div>
-        
+
         <header>
           <a href="#"><div className="logo"></div></a>
 
@@ -19,6 +19,7 @@ class Contactpage extends React.Component{
               <a href="#aboutpage">About</a>
               <a href="#portfoliopage">Portfolio</a>
               <a href="#resumepage">Resumé</a>
+              <a href="#contactpage">Contact</a>
             </ul>
           </div>
         </header>

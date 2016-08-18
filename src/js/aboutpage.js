@@ -16,6 +16,7 @@ class Aboutpage extends React.Component{
           <div className="nav">
             <ul id="slideout-nav" className="w3-animate-top">
               <a href="">Home</a>
+              <a href="#aboutpage">About</a>
               <a href="#portfoliopage">Portfolio</a>
               <a href="#resumepage">Resumé</a>
               <a href="#contactpage">Contact</a>

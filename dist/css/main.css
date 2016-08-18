@@ -51,7 +51,7 @@ html {
     margin-right: 2.35765%;
     width: 100%;
     padding: 5px 0 5px 0;
-    background: linear-gradient(to right, #fff, #7DD4B6);
+    background: linear-gradient(to right, #fff, #A2E0C9);
     position: fixed;
     top: 0;
     z-index: 2;
@@ -99,7 +99,7 @@ html {
           #app header .nav #slideout-nav a:last-child {
             margin-right: 0; }
           #app header .nav #slideout-nav a:first-of-type {
-            margin-left: 34.11922%; }
+            margin-left: 17.05961%; }
 
 #mainpage {
   float: left;
@@ -142,10 +142,12 @@ html {
         float: left;
         display: block;
         margin-right: 2.35765%;
-        width: 100%;
+        width: 97.86755%;
         font-size: 30px;
         margin-top: 0px;
-        margin-bottom: 0px; }
+        margin-bottom: 0px;
+        position: relative;
+        top: -30px; }
         #mainpage .landing-content .name-container .h2:last-child {
           margin-right: 0; }
   #mainpage .nav {
@@ -158,7 +160,8 @@ html {
     position: fixed;
     bottom: 0;
     animation-duration: 2.75s;
-    border-top: 5px solid rgba(255, 255, 255, 0.1); }
+    border-top: 5px solid rgba(255, 255, 255, 0.1);
+    animation-iteration-count: 1; }
     #mainpage .nav:last-child {
       margin-right: 0; }
     #mainpage .nav ul {
@@ -198,7 +201,7 @@ html {
     display: block;
     margin-right: 2.35765%;
     width: 100%;
-    padding: 75px 0 50px 0;
+    padding: 175px 0 50px 0;
     position: absolute;
     top: 65px;
     z-index: 1; }
@@ -228,6 +231,8 @@ html {
       margin: 0 0 30px 0; }
       #aboutpage .about-container p:last-child {
         margin-right: 0; }
+      #aboutpage .about-container p:first-of-type {
+        margin-top: 25px; }
 
 #resumepage .resume-container {
   float: left;
