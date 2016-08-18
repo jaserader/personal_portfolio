@@ -7,9 +7,22 @@ class Resumepage extends React.Component{
   render(){
     return(
       <div id="resumepage">
+        <div className="background-image"></div>
+        <div className="background-filter"></div>
+        
         <header>
-          <a href="#"><h1>Jase Rader</h1></a>
+          <a href="#"><div className="logo"></div></a>
+
+          <div className="nav">
+            <ul id="slideout-nav" className="w3-animate-top">
+              <a href="">Home</a>
+              <a href="#aboutpage">About</a>
+              <a href="#portfoliopage">Portfolio</a>
+              <a href="#contactpage">Contact</a>
+            </ul>
+          </div>
         </header>
+
 
         <div className="resume-container">
           <div>

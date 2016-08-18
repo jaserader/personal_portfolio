@@ -5,21 +5,43 @@
 
 * {
   box-sizing: border-box;
-  font-family: 'Assistant', sans-serif;
-  // font-family: 'Quicksand', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: lighter;
 }
 
 #app{
   @include outer-container(100%);
-  background-image: url("../img/mountain.svg");
-  background-size: cover;
-  height: 100vh;
+
+  .background-image{
+    @include span-columns(12);
+    background-image: url("../img/mountain.svg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    z-index: -10000;
+    animation-duration: 3.25s;
+  }
+
+  .background-filter{
+    @include span-columns(12);
+    background: #fff;
+    opacity: .925;
+    padding: 75px 0 50px 0;
+    height: 100vh;
+    border-radius: 5px;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+  }
 
   header{
     @include span-columns(12);
-    padding: 10px 0 10px 0;
-    background: #fff;
+    padding: 5px 0 5px 0;
+    background: linear-gradient(to right, #fff, #7DD4B6);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    opacity: .75;
 
     a{
       @include span-columns(6);
@@ -27,35 +49,30 @@
       color: black;
 
       .logo{
-        @include shift(1);
+        @include shift(.75);
         background-image: url("../img/Jaselogo_2.png");
         background-size: cover;
         width: 50px;
         height: 50px;
+        margin-top: 5px;
       }
     }
 
     .nav{
       @include span-columns(6);
 
-      // a{
-      //   @include span-columns(2);
-      //   @include shift(10);
-      //   font-size: 30px;
-      //   // display: block;
-      //
-      //   &:hover{
-      //     color: #7DD4B6;
-      //   }
-      // }
-
-    #slideout-nav{
-      @include span-columns(12);
+      #slideout-nav{
+        @include span-columns(12);
         padding: 0;
-        // display: none;
+        animation-duration: 1.25s;
 
         a{
           @include span-columns(2);
+          font-size: 20px;
+
+          &:first-of-type{
+            @include shift(4);
+          }
         }
       }
     }
@@ -67,21 +84,26 @@
 
   .landing-content{
     @include span-columns(12);
+    position: absolute;
+    z-index: 1;
 
     .name-container{
       @include span-columns(6);
       text-align: center;
       position: relative;
       top: 100px;
+      // z-index: 1;
 
-      h1{
-        font-size: 118px;
+      .h1{
+        @include span-columns(12);
+        font-size: 110px;
         margin-top: 0px;
         margin-bottom: 0px;
-        font-weight: 200;
+        font-weight: 100;
       }
 
-      h2{
+      .h2{
+        @include span-columns(12);
         font-size: 30px;
         margin-top: 0px;
         margin-bottom: 0px;
@@ -93,8 +115,10 @@
     @include span-columns(12);
     background: linear-gradient(to right, #fff, #7DD4B6);
     opacity: .75;
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    animation-duration: 2.75s;
+    border-top: 5px solid rgba(255,255,255, .1);
 
     ul{
       @include span-columns(12);
@@ -104,12 +128,16 @@
         @include span-columns(2.4);
         text-align: center;
         font-size: 26px;
-        font-weight: 200;
+        font-weight: 300;
         color: black;
         text-decoration: none;
 
         &:hover{
-          color: #1F66BA;
+          color: #F10006;
+        }
+
+        &:first-of-type{
+          @include shift(2.4);
         }
       }
     }
@@ -121,11 +149,10 @@
 
   .about-container{
     @include span-columns(12);
-    background: #fff;
-    opacity: .925;
     padding: 75px 0 50px 0;
-    height: 94vh;
-    border-radius: 5px;
+    position: absolute;
+    top: 65px;
+    z-index: 1;
 
     .column{
       @include span-columns(6);
@@ -152,32 +179,29 @@
 #resumepage{
   .resume-container{
     @include span-columns(12);
-    background: #fff;
-    opacity: .925;
     padding: 75px 0 50px 0;
-    height: 90vh;
-    border-radius: 5px;
+    position: absolute;
+    top: 65px;
+    z-index: 1;
   }
 }
 
 #contactpage{
   .contact-container{
     @include span-columns(12);
-    background: #fff;
-    opacity: .925;
     padding: 75px 0 50px 0;
-    height: 90vh;
-    border-radius: 5px;
+    position: absolute;
+    top: 65px;
+    z-index: 1;
   }
 }
 
 #portfoliopage{
   .portfolio-container{
     @include span-columns(12);
-    background: #fff;
-    opacity: .925;
     padding: 75px 0 50px 0;
-    height: 90vh;
-    border-radius: 5px;
+    position: absolute;
+    top: 65px;
+    z-index: 1;
   }
 }

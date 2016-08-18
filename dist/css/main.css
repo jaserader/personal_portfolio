@@ -6,27 +6,56 @@ html {
 
 * {
   box-sizing: border-box;
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: lighter; }
 
 #app {
   max-width: 100%;
   margin-left: auto;
-  margin-right: auto;
-  background-image: url("../img/mountain.svg");
-  background-size: cover;
-  height: 100vh; }
+  margin-right: auto; }
   #app::after {
     clear: both;
     content: "";
     display: table; }
+  #app .background-image {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    background-image: url("../img/mountain.svg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    z-index: -10000;
+    animation-duration: 3.25s; }
+    #app .background-image:last-child {
+      margin-right: 0; }
+  #app .background-filter {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    background: #fff;
+    opacity: .925;
+    padding: 75px 0 50px 0;
+    height: 100vh;
+    border-radius: 5px;
+    position: absolute;
+    top: 0px;
+    z-index: 1; }
+    #app .background-filter:last-child {
+      margin-right: 0; }
   #app header {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 100%;
-    padding: 10px 0 10px 0;
-    background: #fff; }
+    padding: 5px 0 5px 0;
+    background: linear-gradient(to right, #fff, #7DD4B6);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    opacity: .75; }
     #app header:last-child {
       margin-right: 0; }
     #app header a {
@@ -39,11 +68,12 @@ html {
       #app header a:last-child {
         margin-right: 0; }
       #app header a .logo {
-        margin-left: 8.5298%;
+        margin-left: 6.39735%;
         background-image: url("../img/Jaselogo_2.png");
         background-size: cover;
         width: 50px;
-        height: 50px; }
+        height: 50px;
+        margin-top: 5px; }
     #app header .nav {
       float: left;
       display: block;
@@ -56,16 +86,20 @@ html {
         display: block;
         margin-right: 2.35765%;
         width: 100%;
-        padding: 0; }
+        padding: 0;
+        animation-duration: 1.25s; }
         #app header .nav #slideout-nav:last-child {
           margin-right: 0; }
         #app header .nav #slideout-nav a {
           float: left;
           display: block;
           margin-right: 2.35765%;
-          width: 14.70196%; }
+          width: 14.70196%;
+          font-size: 20px; }
           #app header .nav #slideout-nav a:last-child {
             margin-right: 0; }
+          #app header .nav #slideout-nav a:first-of-type {
+            margin-left: 34.11922%; }
 
 #mainpage {
   float: left;
@@ -78,7 +112,9 @@ html {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 100%; }
+    width: 100%;
+    position: absolute;
+    z-index: 1; }
     #mainpage .landing-content:last-child {
       margin-right: 0; }
     #mainpage .landing-content .name-container {
@@ -91,15 +127,27 @@ html {
       top: 100px; }
       #mainpage .landing-content .name-container:last-child {
         margin-right: 0; }
-      #mainpage .landing-content .name-container h1 {
-        font-size: 118px;
+      #mainpage .landing-content .name-container .h1 {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        font-size: 110px;
         margin-top: 0px;
         margin-bottom: 0px;
-        font-weight: 200; }
-      #mainpage .landing-content .name-container h2 {
+        font-weight: 100; }
+        #mainpage .landing-content .name-container .h1:last-child {
+          margin-right: 0; }
+      #mainpage .landing-content .name-container .h2 {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
         font-size: 30px;
         margin-top: 0px;
         margin-bottom: 0px; }
+        #mainpage .landing-content .name-container .h2:last-child {
+          margin-right: 0; }
   #mainpage .nav {
     float: left;
     display: block;
@@ -107,8 +155,10 @@ html {
     width: 100%;
     background: linear-gradient(to right, #fff, #7DD4B6);
     opacity: .75;
-    position: absolute;
-    bottom: 0; }
+    position: fixed;
+    bottom: 0;
+    animation-duration: 2.75s;
+    border-top: 5px solid rgba(255, 255, 255, 0.1); }
     #mainpage .nav:last-child {
       margin-right: 0; }
     #mainpage .nav ul {
@@ -126,13 +176,15 @@ html {
         width: 18.11388%;
         text-align: center;
         font-size: 26px;
-        font-weight: 200;
+        font-weight: 300;
         color: black;
         text-decoration: none; }
         #mainpage .nav ul a:last-child {
           margin-right: 0; }
         #mainpage .nav ul a:hover {
-          color: #1F66BA; }
+          color: #F10006; }
+        #mainpage .nav ul a:first-of-type {
+          margin-left: 20.47153%; }
 
 #aboutpage {
   float: left;
@@ -146,11 +198,10 @@ html {
     display: block;
     margin-right: 2.35765%;
     width: 100%;
-    background: #fff;
-    opacity: .925;
     padding: 75px 0 50px 0;
-    height: 94vh;
-    border-radius: 5px; }
+    position: absolute;
+    top: 65px;
+    z-index: 1; }
     #aboutpage .about-container:last-child {
       margin-right: 0; }
     #aboutpage .about-container .column {
@@ -183,11 +234,10 @@ html {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  background: #fff;
-  opacity: .925;
   padding: 75px 0 50px 0;
-  height: 90vh;
-  border-radius: 5px; }
+  position: absolute;
+  top: 65px;
+  z-index: 1; }
   #resumepage .resume-container:last-child {
     margin-right: 0; }
 
@@ -196,11 +246,10 @@ html {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  background: #fff;
-  opacity: .925;
   padding: 75px 0 50px 0;
-  height: 90vh;
-  border-radius: 5px; }
+  position: absolute;
+  top: 65px;
+  z-index: 1; }
   #contactpage .contact-container:last-child {
     margin-right: 0; }
 
@@ -209,10 +258,9 @@ html {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  background: #fff;
-  opacity: .925;
   padding: 75px 0 50px 0;
-  height: 90vh;
-  border-radius: 5px; }
+  position: absolute;
+  top: 65px;
+  z-index: 1; }
   #portfoliopage .portfolio-container:last-child {
     margin-right: 0; }

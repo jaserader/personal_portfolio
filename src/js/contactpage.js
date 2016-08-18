@@ -7,11 +7,24 @@ class Contactpage extends React.Component{
   render(){
     return(
       <div id="contactpage">
+        <div className="background-image"></div>
+        <div className="background-filter"></div>
+        
         <header>
-          <a href="#"><h1>Jase Rader</h1></a>
+          <a href="#"><div className="logo"></div></a>
+
+          <div className="nav">
+            <ul id="slideout-nav" className="w3-animate-top">
+              <a href="">Home</a>
+              <a href="#aboutpage">About</a>
+              <a href="#portfoliopage">Portfolio</a>
+              <a href="#resumepage">Resumé</a>
+            </ul>
+          </div>
         </header>
 
-        <div className="contact-container">  
+
+        <div className="contact-container">
           <div>
             <div id="smallLogo"></div>
             <div id="headerNav"><a href="mailto:jaserader@icloud.com"><i className="fa fa-envelope-o"></i>jaserader@me.com</a><a href="tel:615-838-5484"><i className="fa fa-mobile"></i>615-838-5484</a></div>

@@ -6,15 +6,16 @@ class Aboutpage extends React.Component{
 
   render(){
     return(
-      <div id="aboutpage">
+      <div id="aboutpage" className="w3-animate-fade">
+        <div className="background-image"></div>
+        <div className="background-filter"></div>
+
         <header>
           <a href="#"><div className="logo"></div></a>
 
           <div className="nav">
-
-            <ul id="slideout-nav">
+            <ul id="slideout-nav" className="w3-animate-top">
               <a href="">Home</a>
-              <a href="#aboutpage">About</a>
               <a href="#portfoliopage">Portfolio</a>
               <a href="#resumepage">Resumé</a>
               <a href="#contactpage">Contact</a>

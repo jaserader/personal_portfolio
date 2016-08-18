@@ -7,19 +7,20 @@ class Mainpage extends React.Component{
   render(){
     return(
         <div id="mainpage">
+          <div className="background-image w3-animate-bottom"></div>
+
           <div className="landing-content">
             <div className="name-container">
-              <h1>Jase Rader</h1>
-              <h2>Front End Developer && UI Designer</h2>
+              <div className="h1">JASE RADER</div>
+              <span className="h2">Front End Developer && UI Designer</span>
             </div>
 
-            <div className="nav">
+            <div className="nav w3-animate-right">
               <ul>
-                <a href="">Home</a>
-                <a href="#aboutpage">About</a>
-                <a href="#portfoliopage">Portfolio</a>
-                <a href="#resumepage">Resumé</a>
-                <a href="#contactpage">Contact</a>
+                <a className="nav-trigger" href="#aboutpage">About</a>
+                <a className="nav-trigger" href="#portfoliopage">Portfolio</a>
+                <a className="nav-trigger" href="#resumepage">Resumé</a>
+                <a className="nav-trigger" href="#contactpage">Contact</a>
               </ul>
             </div>
           </div>
