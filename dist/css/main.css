@@ -25,9 +25,8 @@ html {
     display: block;
     margin-right: 2.35765%;
     width: 100%;
-    border-bottom: 1px solid black;
     padding: 10px 0 10px 0;
-    background: black; }
+    background: #fff; }
     #app header:last-child {
       margin-right: 0; }
     #app header a {
@@ -35,47 +34,38 @@ html {
       display: block;
       margin-right: 2.35765%;
       width: 48.82117%;
-      margin-left: 8.5298%;
       text-decoration: none;
-      color: #fff; }
+      color: black; }
       #app header a:last-child {
         margin-right: 0; }
-      #app header a h1 {
-        margin-top: 0px;
-        margin-bottom: 0px; }
-  #app .nav {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%;
-    background: #fff;
-    opacity: .95;
-    position: absolute;
-    bottom: 0; }
-    #app .nav:last-child {
-      margin-right: 0; }
-    #app .nav ul {
+      #app header a .logo {
+        margin-left: 8.5298%;
+        background-image: url("../img/Jaselogo_2.png");
+        background-size: cover;
+        width: 50px;
+        height: 50px; }
+    #app header .nav {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%;
-      padding: 0; }
-      #app .nav ul:last-child {
+      width: 48.82117%; }
+      #app header .nav:last-child {
         margin-right: 0; }
-      #app .nav ul a {
+      #app header .nav #slideout-nav {
         float: left;
         display: block;
         margin-right: 2.35765%;
-        width: 18.11388%;
-        text-align: center;
-        font-size: 26px;
-        font-weight: 200;
-        color: black;
-        text-decoration: none; }
-        #app .nav ul a:last-child {
+        width: 100%;
+        padding: 0; }
+        #app header .nav #slideout-nav:last-child {
           margin-right: 0; }
-        #app .nav ul a:hover {
-          color: #1F66BA; }
+        #app header .nav #slideout-nav a {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 14.70196%; }
+          #app header .nav #slideout-nav a:last-child {
+            margin-right: 0; }
 
 #mainpage {
   float: left;
@@ -110,6 +100,39 @@ html {
         font-size: 30px;
         margin-top: 0px;
         margin-bottom: 0px; }
+  #mainpage .nav {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    background: linear-gradient(to right, #fff, #7DD4B6);
+    opacity: .75;
+    position: absolute;
+    bottom: 0; }
+    #mainpage .nav:last-child {
+      margin-right: 0; }
+    #mainpage .nav ul {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      padding: 0; }
+      #mainpage .nav ul:last-child {
+        margin-right: 0; }
+      #mainpage .nav ul a {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 18.11388%;
+        text-align: center;
+        font-size: 26px;
+        font-weight: 200;
+        color: black;
+        text-decoration: none; }
+        #mainpage .nav ul a:last-child {
+          margin-right: 0; }
+        #mainpage .nav ul a:hover {
+          color: #1F66BA; }
 
 #aboutpage {
   float: left;
@@ -126,7 +149,7 @@ html {
     background: #fff;
     opacity: .925;
     padding: 75px 0 50px 0;
-    height: 90vh;
+    height: 94vh;
     border-radius: 5px; }
     #aboutpage .about-container:last-child {
       margin-right: 0; }
@@ -139,11 +162,12 @@ html {
         margin-right: 0; }
     #aboutpage .about-container .headshot {
       margin-left: 27.72186%;
-      background-image: url("../img/headshot.jpg");
+      background-image: url("../img/new_headshot.jpg");
       background-size: cover;
-      height: 350px;
       width: 350px;
-      border-radius: 3px; }
+      height: 475px;
+      border-radius: 3px;
+      opacity: none; }
     #aboutpage .about-container p {
       float: left;
       display: block;
@@ -178,4 +202,17 @@ html {
   height: 90vh;
   border-radius: 5px; }
   #contactpage .contact-container:last-child {
+    margin-right: 0; }
+
+#portfoliopage .portfolio-container {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background: #fff;
+  opacity: .925;
+  padding: 75px 0 50px 0;
+  height: 90vh;
+  border-radius: 5px; }
+  #portfoliopage .portfolio-container:last-child {
     margin-right: 0; }

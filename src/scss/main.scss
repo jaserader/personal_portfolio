@@ -18,44 +18,44 @@
 
   header{
     @include span-columns(12);
-    border-bottom: 1px solid black;
     padding: 10px 0 10px 0;
-    background: black;
+    background: #fff;
 
     a{
       @include span-columns(6);
-      @include shift(1);
       text-decoration: none;
-      color: #fff;
+      color: black;
 
-      h1{
-        margin-top: 0px;
-        margin-bottom: 0px;
+      .logo{
+        @include shift(1);
+        background-image: url("../img/Jaselogo_2.png");
+        background-size: cover;
+        width: 50px;
+        height: 50px;
       }
     }
-  }
 
-  .nav{
-    @include span-columns(12);
-    background: #fff;
-    opacity: .95;
-    position: absolute;
-    bottom: 0;
+    .nav{
+      @include span-columns(6);
 
-    ul{
+      // a{
+      //   @include span-columns(2);
+      //   @include shift(10);
+      //   font-size: 30px;
+      //   // display: block;
+      //
+      //   &:hover{
+      //     color: #7DD4B6;
+      //   }
+      // }
+
+    #slideout-nav{
       @include span-columns(12);
-      padding: 0;
+        padding: 0;
+        // display: none;
 
-      a{
-        @include span-columns(2.4);
-        text-align: center;
-        font-size: 26px;
-        font-weight: 200;
-        color: black;
-        text-decoration: none;
-
-        &:hover{
-          color: #1F66BA;
+        a{
+          @include span-columns(2);
         }
       }
     }
@@ -88,6 +88,32 @@
       }
     }
   }
+
+  .nav{
+    @include span-columns(12);
+    background: linear-gradient(to right, #fff, #7DD4B6);
+    opacity: .75;
+    position: absolute;
+    bottom: 0;
+
+    ul{
+      @include span-columns(12);
+      padding: 0;
+
+      a{
+        @include span-columns(2.4);
+        text-align: center;
+        font-size: 26px;
+        font-weight: 200;
+        color: black;
+        text-decoration: none;
+
+        &:hover{
+          color: #1F66BA;
+        }
+      }
+    }
+  }
 }
 
 #aboutpage{
@@ -98,7 +124,7 @@
     background: #fff;
     opacity: .925;
     padding: 75px 0 50px 0;
-    height: 90vh;
+    height: 94vh;
     border-radius: 5px;
 
     .column{
@@ -107,11 +133,12 @@
 
     .headshot{
       @include shift(3.25);
-      background-image: url("../img/headshot.jpg");
+      background-image: url("../img/new_headshot.jpg");
       background-size: cover;
-      height: 350px;
       width: 350px;
+      height: 475px;
       border-radius: 3px;
+      opacity: none;
     }
 
     p{
@@ -135,6 +162,17 @@
 
 #contactpage{
   .contact-container{
+    @include span-columns(12);
+    background: #fff;
+    opacity: .925;
+    padding: 75px 0 50px 0;
+    height: 90vh;
+    border-radius: 5px;
+  }
+}
+
+#portfoliopage{
+  .portfolio-container{
     @include span-columns(12);
     background: #fff;
     opacity: .925;

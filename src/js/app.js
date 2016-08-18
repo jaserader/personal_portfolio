@@ -5,6 +5,7 @@ import { Router, Route, IndexRoute } from 'react-router';
 import Homepage from "./homepage";
 import Mainpage from "./mainpage";
 import Aboutpage from "./aboutpage";
+import Portfoliopage from "./portfoliopage";
 import Resumepage from "./resumepage";
 import Contactpage from "./contactpage";
 
@@ -14,15 +15,6 @@ class App extends React.Component {
     return(
       <div>
         {this.props.children}
-        <div className="nav">
-          <ul>
-            <a href="">Home</a>
-            <a href="#aboutpage">About</a>
-            <a href="">Portfolio</a>
-            <a href="#resumepage">Resumé</a>
-            <a href="#contactpage">Contact</a>
-          </ul>
-        </div>
       </div>
     )
   }
@@ -33,6 +25,7 @@ ReactDOM.render((
     <Route path="/" component={App}>
       <IndexRoute component={Mainpage} />
     <Route path="aboutpage" component={Aboutpage} />
+    <Route path="portfoliopage" component={Portfoliopage} />
     <Route path="resumepage" component={Resumepage} />
     <Route path="contactpage" component={Contactpage} />
     </Route>

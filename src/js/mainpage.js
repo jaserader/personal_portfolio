@@ -12,6 +12,16 @@ class Mainpage extends React.Component{
               <h1>Jase Rader</h1>
               <h2>Front End Developer && UI Designer</h2>
             </div>
+
+            <div className="nav">
+              <ul>
+                <a href="">Home</a>
+                <a href="#aboutpage">About</a>
+                <a href="#portfoliopage">Portfolio</a>
+                <a href="#resumepage">Resumé</a>
+                <a href="#contactpage">Contact</a>
+              </ul>
+            </div>
           </div>
         </div>
     )

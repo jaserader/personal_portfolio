@@ -8,7 +8,18 @@ class Aboutpage extends React.Component{
     return(
       <div id="aboutpage">
         <header>
-          <a href="#"><h1>Jase Rader</h1></a>
+          <a href="#"><div className="logo"></div></a>
+
+          <div className="nav">
+
+            <ul id="slideout-nav">
+              <a href="">Home</a>
+              <a href="#aboutpage">About</a>
+              <a href="#portfoliopage">Portfolio</a>
+              <a href="#resumepage">Resumé</a>
+              <a href="#contactpage">Contact</a>
+            </ul>
+          </div>
         </header>
 
         <div className="about-container">
