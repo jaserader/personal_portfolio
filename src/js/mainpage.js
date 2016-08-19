@@ -11,7 +11,7 @@ class Mainpage extends React.Component{
 
           <div className="landing-content">
             <div className="name-container">
-              <div className="h1">JASE RADER</div>
+              <span className="h1">JASE RADER</span>
               <span className="h2">Front End Developer && UI Designer</span>
             </div>
 

@@ -37,7 +37,7 @@
   header{
     @include span-columns(12);
     padding: 5px 0 5px 0;
-    background: linear-gradient(to right, #fff, #A2E0C9);
+    background: linear-gradient(to right, #fff, #7DD4B6);
     position: fixed;
     top: 0;
     z-index: 2;
@@ -151,7 +151,8 @@
   @include span-columns(12);
 
   .about-container{
-    @include span-columns(12);
+    @include span-columns(10);
+    @include shift(1);
     padding: 175px 0 50px 0;
     position: absolute;
     top: 65px;
@@ -175,10 +176,6 @@
       @include span-columns(10);
       font-size: 20px;
       margin: 0 0 30px 0;
-
-      &:first-of-type{
-        margin-top: 25px;
-      }
     }
   }
 }
@@ -186,10 +183,77 @@
 #resumepage{
   .resume-container{
     @include span-columns(12);
-    padding: 75px 0 50px 0;
+    padding: 25px 0 50px 0;
     position: absolute;
     top: 65px;
     z-index: 1;
+
+    .resume{
+      @include span-columns(6);
+      @include shift(3);
+      background: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 3px 2px 3px 2px #F1F1F1;
+
+      #skills{
+        @include span-columns(12);
+        text-align: center;
+        color: #17667B;
+        font-weight: 400;
+      }
+
+      .resume-block{
+        @include span-columns(12);
+
+        .resume-title{
+          @include span-columns(7.8);
+          // @include omega(n);
+          font-size: 22px;
+
+          &:last-of-type{
+            @include span-columns(3.8);
+            text-align: right;
+          }
+        }
+
+        p{
+          @include span-columns(12);
+          text-align: right;
+          margin: 0;
+        }
+
+        ul{
+          @include span-columns(12);
+
+          li{
+            @include span-columns(12);
+          }
+        }
+      }
+    }
+
+    footer{
+      @include span-columns(12);
+      position: fixed;
+      bottom: 0;
+      padding: 15px 50px 5px 0;
+      background: linear-gradient(to right, #fff, #7DD4B6);
+      text-align: right;
+
+      a{
+        font-size: 24px;
+        text-decoration: none;
+
+        &:hover{
+          color: #F10006;
+        }
+
+        i{
+          font-size: 36px;
+        }
+      }
+    }
   }
 }
 
@@ -200,6 +264,61 @@
     position: absolute;
     top: 65px;
     z-index: 1;
+
+    .contact-info{
+      @include span-columns(8);
+      @include shift(2);
+
+      .h1{
+        @include span-columns(12);
+        font-size: 40px;
+      }
+
+      a{
+        @include span-columns(10);
+        @include shift(.5);
+        font-size: 24px;
+        text-decoration: none;
+
+        i{
+          font-size: 30px;
+          margin-right: 10px;
+        }
+      }
+    }
+
+    footer{
+      @include span-columns(12);
+      position: fixed;
+      bottom: 0;
+      padding: 5px 0 5px 0;
+      background: linear-gradient(to right, #fff, #7DD4B6);
+
+      span{
+        @include span-columns(6);
+        font-size: 20px;
+        padding-left: 25px;
+        padding-top: 15px;
+      }
+
+      nav{
+        @include span-columns(6);
+
+        a{
+          @include span-columns(2);
+          text-align: center;
+          font-size: 36px;
+
+          &:hover{
+            color: #F10006;
+          }
+
+          &:first-of-type{
+            @include shift(2);
+          }
+        }
+      }
+    }
   }
 }
 

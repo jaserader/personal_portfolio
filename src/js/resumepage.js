@@ -26,33 +26,53 @@ class Resumepage extends React.Component{
 
 
         <div className="resume-container">
-          <div>
-            <div id="smallLogo"></div>
-            <div id="headerNav"><a href="mailto:jaserader@icloud.com"><i className="fa fa-envelope-o"></i>jaserader@me.com</a><a href="tel:615-838-5484"><i className="fa fa-mobile"></i>615-838-5484</a></div>
-            <div id="brief">Front-End Developer with a background in Information Technology and Business.</div>
-          </div>
 
-          <div id="nav">
-            <Link to="#" id="back" className="fa fa-arrow-left">Back</Link>
-            <div id="downloadSpan">Click to Download:</div>
+          <div className="resume">
+            <p id="skills">
+              SKILLS:	HTML, CSS, SASS, Sketch, JavaScript, jQuery, Knockout.js, PHP, Bourbon/Neat, React, Backbone.js, Git, GitHub, Command Terminal, Bower, NPM, Gulp, Adobe Illustrator, Adobe Capture
+            </p>
+            <hr></hr>
+              <div className="resume-block">
+                <span className="resume-title">GameWisp, Inc.</span><span className="resume-title">Nashville, TN</span>
+                <p>February 2016 - August 2016</p>
+                <ul>
+                  <li>Redesigned entire site for September 2016 Launch of a new GameWisp Site</li>
+                  <li>Established Design and Front End techniques to make site more user friendly and readable</li>
+                  <li>Created Wire Frames with Sketch to create and communicate new designs and work flow</li>
+                  <li>Worked in Dev environment daily to help build the new and redesigned pages and components</li>
+                </ul>
+              </div>
+            <hr></hr>
+              <div className="resume-block">
+                <span className="resume-title">Branstetter, Stranch and Jennings, PLLC</span><span className="resume-title">Nashville, TN</span>
+                <p>August 2013 - October 2015</p>
+                <ul>
+                  <li>Provided attorneys and staff with hardware and software technical support</li>
+                  <li>Assisted office manager with billing and operational duties</li>
+                </ul>
+              </div>
+            <hr></hr>
+              <div className="resume-block">
+                <span className="resume-title">21st Mortgage Corporation</span><span className="resume-title">Knoxville, TN</span>
+                <p>May 2012 - July 2013</p>
+                <ul>
+                  <li>Managed delinquent accounts and provided financial services for a diverse customer base</li>
+                  <li>Analyzed accounts to allocate financial solutions for customers</li>
+                </ul>
+              </div>
+            <hr></hr>
+              <div className="resume-block">
+                <span className="resume-title">Apple Store</span><span className="resume-title">Knoxville, TN</span>
+                <p>January - August 2010</p>
+                <ul>
+                  <li>Focused on sales and providing customer satisfaction</li>
+                  <li>Developed extensive knowledge of all products and services</li>
+                </ul>
+              </div>
           </div>
-
-          <a href="img/resume.pdf" download="resume.pdf" id="resumeImg"> </a>
 
           <footer>
-            <nav>
-              <a href="https://github.com/jaserader"><i className="fa fa-github-square"></i></a>
-              <a href="https://www.linkedin.com/in/jaserader"><i className="fa fa-linkedin-square"></i></a>
-              <a href="https://www.instagram.com/jase_rader/"><i className="fa fa-instagram"></i></a>
-              <a href="https://twitter.com/jaser316"><i className="fa fa-twitter"></i></a>
-            </nav>
-
-            <span id="copyright">© 2016 Jase Rader</span>
-
-            <div id="downloads">
-              <a href="img/resume.pdf" download="resume.pdf"><i className="fa fa-download"></i> Download Resumé</a>
-              <a href="mailto:jaserader@icloud.com"><i className="fa fa-envelope-o"></i> Email Me</a>
-            </div>
+            <a href="img/resume.pdf" download="resume.pdf"><i className="fa fa-download"></i> Download Resumé</a>
           </footer>
         </div>
       </div>
