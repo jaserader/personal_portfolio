@@ -27,11 +27,10 @@ class Resumepage extends React.Component{
 
         <div className="resume-container">
 
-          <div className="resume">
+          <div className="resume w3-animate-top">
             <p id="skills">
               SKILLS:	HTML, CSS, SASS, Sketch, JavaScript, jQuery, Knockout.js, PHP, Bourbon/Neat, React, Backbone.js, Git, GitHub, Command Terminal, Bower, NPM, Gulp, Adobe Illustrator, Adobe Capture
             </p>
-            <hr></hr>
               <div className="resume-block">
                 <span className="resume-title">GameWisp, Inc.</span><span className="resume-title">Nashville, TN</span>
                 <p>February 2016 - August 2016</p>

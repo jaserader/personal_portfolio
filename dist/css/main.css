@@ -7,7 +7,7 @@ html {
 * {
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
-  font-weight: lighter; }
+  font-weight: 200; }
 
 #app {
   max-width: 100%;
@@ -25,7 +25,7 @@ html {
     background-image: url("../img/mountain.svg");
     background-size: cover;
     height: 100vh;
-    position: relative;
+    position: fixed;
     z-index: -10000;
     animation-duration: 3.25s; }
     #app .background-image:last-child {
@@ -40,7 +40,7 @@ html {
     padding: 75px 0 50px 0;
     height: 100vh;
     border-radius: 5px;
-    position: absolute;
+    position: fixed;
     top: 0px;
     z-index: 1; }
     #app .background-filter:last-child {
@@ -54,8 +54,7 @@ html {
     background: linear-gradient(to right, #fff, #7DD4B6);
     position: fixed;
     top: 0;
-    z-index: 2;
-    opacity: .75; }
+    z-index: 2; }
     #app header:last-child {
       margin-right: 0; }
     #app header a {
@@ -64,7 +63,7 @@ html {
       margin-right: 2.35765%;
       width: 48.82117%;
       text-decoration: none;
-      color: black; }
+      color: #323731; }
       #app header a:last-child {
         margin-right: 0; }
       #app header a .logo {
@@ -95,9 +94,12 @@ html {
           display: block;
           margin-right: 2.35765%;
           width: 14.70196%;
-          font-size: 20px; }
+          font-size: 20px;
+          color: #323731; }
           #app header .nav #slideout-nav a:last-child {
             margin-right: 0; }
+          #app header .nav #slideout-nav a:hover {
+            color: #FD4F17; }
           #app header .nav #slideout-nav a:first-of-type {
             margin-left: 17.05961%; }
 
@@ -156,7 +158,7 @@ html {
     margin-right: 2.35765%;
     width: 100%;
     background: linear-gradient(to right, #fff, #7DD4B6);
-    opacity: .75;
+    opacity: .85;
     position: fixed;
     bottom: 0;
     animation-duration: 2.75s;
@@ -180,12 +182,12 @@ html {
         text-align: center;
         font-size: 26px;
         font-weight: 300;
-        color: black;
+        color: #323731;
         text-decoration: none; }
         #mainpage .nav ul a:last-child {
           margin-right: 0; }
         #mainpage .nav ul a:hover {
-          color: #F10006; }
+          color: #FD4F17; }
         #mainpage .nav ul a:first-of-type {
           margin-left: 20.47153%; }
 
@@ -202,7 +204,7 @@ html {
     margin-right: 2.35765%;
     width: 82.94039%;
     margin-left: 8.5298%;
-    padding: 175px 0 50px 0;
+    padding: 150px 0 50px 0;
     position: absolute;
     top: 65px;
     z-index: 1; }
@@ -217,19 +219,33 @@ html {
         margin-right: 0; }
     #aboutpage .about-container .headshot {
       margin-left: 27.72186%;
-      background-image: url("../img/new_headshot.jpg");
+      background-image: url("../img/new_headshot_bw.jpg");
       background-size: cover;
-      width: 350px;
-      height: 475px;
+      width: 370px;
+      height: 550px;
       border-radius: 3px;
-      opacity: none; }
-    #aboutpage .about-container p {
+      opacity: none;
+      animation-duration: 2.0s; }
+    #aboutpage .about-container .about-block {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 82.94039%;
+      background: #FD4F17;
+      color: #fff;
+      padding: 20px;
+      border-radius: 3px;
+      animation-duration: 2.0s; }
+      #aboutpage .about-container .about-block:last-child {
+        margin-right: 0; }
+    #aboutpage .about-container p {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
       font-size: 20px;
-      margin: 0 0 30px 0; }
+      margin: 0 0 30px 0;
+      text-align: justify; }
       #aboutpage .about-container p:last-child {
         margin-right: 0; }
 
@@ -239,9 +255,11 @@ html {
   margin-right: 2.35765%;
   width: 100%;
   padding: 25px 0 50px 0;
+  margin-bottom: 25px;
   position: absolute;
   top: 65px;
-  z-index: 1; }
+  z-index: 1;
+  overflow: scroll; }
   #resumepage .resume-container:last-child {
     margin-right: 0; }
   #resumepage .resume-container .resume {
@@ -250,21 +268,32 @@ html {
     margin-right: 2.35765%;
     width: 48.82117%;
     margin-left: 25.58941%;
-    background: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 3px 2px 3px 2px #F1F1F1; }
+    background: #323731;
+    color: #fff;
+    padding: 30px 20px 30px 20px;
+    border-radius: 3px;
+    animation-duration: 2.0s;
+    box-shadow: 3px 3px 3px 3px #BABABA; }
     #resumepage .resume-container .resume:last-child {
       margin-right: 0; }
     #resumepage .resume-container .resume #skills {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%;
+      width: 91.4702%;
+      margin-left: 4.2649%;
       text-align: center;
-      color: #17667B;
-      font-weight: 400; }
+      font-weight: 500;
+      margin-bottom: 50px; }
       #resumepage .resume-container .resume #skills:last-child {
+        margin-right: 0; }
+    #resumepage .resume-container .resume hr {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%;
+      margin-left: 38.38412%; }
+      #resumepage .resume-container .resume hr:last-child {
         margin-right: 0; }
     #resumepage .resume-container .resume .resume-block {
       float: left;
@@ -278,22 +307,26 @@ html {
         display: block;
         margin-right: 2.35765%;
         width: 64.17482%;
-        font-size: 22px; }
+        font-size: 20px;
+        text-transform: uppercase; }
         #resumepage .resume-container .resume .resume-block .resume-title:last-child {
+          margin-right: 0; }
+        #resumepage .resume-container .resume .resume-block .resume-title:nth-child(n) {
           margin-right: 0; }
         #resumepage .resume-container .resume .resume-block .resume-title:last-of-type {
           float: left;
           display: block;
           margin-right: 2.35765%;
           width: 30.0556%;
-          text-align: right; }
+          text-align: right;
+          text-transform: none; }
           #resumepage .resume-container .resume .resume-block .resume-title:last-of-type:last-child {
             margin-right: 0; }
       #resumepage .resume-container .resume .resume-block p {
         float: left;
         display: block;
         margin-right: 2.35765%;
-        width: 100%;
+        width: 97.44106%;
         text-align: right;
         margin: 0; }
         #resumepage .resume-container .resume .resume-block p:last-child {
@@ -309,7 +342,8 @@ html {
           float: left;
           display: block;
           margin-right: 2.35765%;
-          width: 100%; }
+          width: 100%;
+          margin-bottom: 5px; }
           #resumepage .resume-container .resume .resume-block ul li:last-child {
             margin-right: 0; }
   #resumepage .resume-container footer {
@@ -326,9 +360,10 @@ html {
       margin-right: 0; }
     #resumepage .resume-container footer a {
       font-size: 24px;
-      text-decoration: none; }
+      text-decoration: none;
+      color: #323731; }
       #resumepage .resume-container footer a:hover {
-        color: #F10006; }
+        color: #FD4F17; }
       #resumepage .resume-container footer a i {
         font-size: 36px; }
 
@@ -343,35 +378,79 @@ html {
   z-index: 1; }
   #contactpage .contact-container:last-child {
     margin-right: 0; }
+  #contactpage .contact-container .h1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    font-size: 36px;
+    text-transform: uppercase; }
+    #contactpage .contact-container .h1:last-child {
+      margin-right: 0; }
+  #contactpage .contact-container hr {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin-top: 0px; }
+    #contactpage .contact-container hr:last-child {
+      margin-right: 0; }
   #contactpage .contact-container .contact-info {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 65.88078%;
-    margin-left: 17.05961%; }
+    width: 48.82117%;
+    margin-left: 25.58941%;
+    background: #FD4F17;
+    color: #fff;
+    padding: 30px 20px 30px 20px;
+    border-radius: 3px;
+    animation-duration: 2.0s;
+    box-shadow: 3px 3px 3px 3px #BABABA; }
     #contactpage .contact-container .contact-info:last-child {
       margin-right: 0; }
-    #contactpage .contact-container .contact-info .h1 {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%;
-      font-size: 40px; }
-      #contactpage .contact-container .contact-info .h1:last-child {
-        margin-right: 0; }
     #contactpage .contact-container .contact-info a {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 82.94039%;
-      margin-left: 4.2649%;
+      width: 48.82117%;
       font-size: 24px;
-      text-decoration: none; }
+      text-decoration: none;
+      text-align: center; }
       #contactpage .contact-container .contact-info a:last-child {
         margin-right: 0; }
+      #contactpage .contact-container .contact-info a:hover {
+        color: #323731; }
       #contactpage .contact-container .contact-info a i {
         font-size: 30px;
         margin-right: 10px; }
+  #contactpage .contact-container .social-info {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    margin-left: 25.58941%;
+    background: #58A2E4;
+    color: #fff;
+    padding: 30px 20px 30px 20px;
+    border-radius: 3px;
+    margin-top: 20px;
+    animation-duration: 2.0s;
+    box-shadow: 3px 3px 3px 3px #BABABA; }
+    #contactpage .contact-container .social-info:last-child {
+      margin-right: 0; }
+    #contactpage .contact-container .social-info a {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%;
+      text-align: center; }
+      #contactpage .contact-container .social-info a:last-child {
+        margin-right: 0; }
+      #contactpage .contact-container .social-info a:hover {
+        color: #323731; }
+      #contactpage .contact-container .social-info a i {
+        font-size: 36px; }
   #contactpage .contact-container footer {
     float: left;
     display: block;
@@ -390,7 +469,8 @@ html {
       width: 48.82117%;
       font-size: 20px;
       padding-left: 25px;
-      padding-top: 15px; }
+      padding-top: 15px;
+      color: #323731; }
       #contactpage .contact-container footer span:last-child {
         margin-right: 0; }
     #contactpage .contact-container footer nav {
@@ -406,11 +486,12 @@ html {
         margin-right: 2.35765%;
         width: 14.70196%;
         text-align: center;
-        font-size: 36px; }
+        font-size: 36px;
+        color: #323731; }
         #contactpage .contact-container footer nav a:last-child {
           margin-right: 0; }
         #contactpage .contact-container footer nav a:hover {
-          color: #F10006; }
+          color: #FD4F17; }
         #contactpage .contact-container footer nav a:first-of-type {
           margin-left: 17.05961%; }
 
