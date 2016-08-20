@@ -106,6 +106,7 @@
         height: 350px;
         margin-bottom: 20px;
 
+
         &:first-of-type{
           @include shift(2);
         }
