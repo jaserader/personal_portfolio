@@ -1,100 +1,89 @@
 @import "../../dist/bower_components/bourbon/app/assets/stylesheets/_bourbon.scss";
   // $visual-grid: true;
 @import "../../dist/bower_components/neat/app/assets/stylesheets/_neat.scss";
+@import 'variables';
+@import 'home';
+@import 'about';
+@import 'portfolio';
+@import 'resume';
+@import 'contact';
+
 
 
 * {
   box-sizing: border-box;
-  font-family: 'Assistant', sans-serif;
-  font-weight: lighter;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
 }
 
-body{
-  height: 100%;
+#app{
   @include outer-container(100%);
 
-  #background-image{
-    // @include span-columns(12);
-    background-image: url("../img/mountain-background.png");
-    background-size: 100% 100%;
-    height: 977px;
-    width: auto;
-    position: relative;
-    z-index: 1;
-    opacity: .5;
-    border-bottom: 3px solid gray;
+  .background-image{
+    @include span-columns(12);
+    background-image: url("../img/mountain.svg");
+    background-size: cover;
+    height: 100vh;
+    position: fixed;
+    z-index: -10000;
+    animation-duration: 3.25s;
   }
 
-  .landing-content{
+  .background-filter{
     @include span-columns(12);
-    padding-bottom: 0px;
-    position: relative;
-    z-index: 10;
-    top: -450px;
+    background: $white;
+    opacity: .925;
+    padding: 75px 0 50px 0;
+    height: 100vh;
+    border-radius: 5px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+  }
 
-    .name-container{
-      @include span-columns(5);
-      text-align: center;
-      position: relative;
-      top: -400px;
+  header{
+    @include span-columns(12);
+    padding: 5px 0 5px 0;
+    background: linear-gradient(to right, $white, $teal);
+    position: fixed;
+    top: 0;
+    z-index: 2;
 
-      h1{
-        font-size: 118px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        font-weight: 200;
-      }
+    a{
+      @include span-columns(6);
+      text-decoration: none;
+      color: $link-color;
 
-      h2{
-        font-size: 30px;
-        margin-top: 0px;
-        margin-bottom: 0px;
+      .logo{
+        @include shift(.75);
+        background-image: url("../img/Jaselogo_2.png");
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        margin-top: 5px;
       }
     }
 
     .nav{
-      @include span-columns(12);
-      background: #fff;
-      opacity: .90;
-      position: relative;
-      margin-bottom: 200px;
-      // height: 250px;
-      // display: none;
-      // top: -100px;
+      @include span-columns(6);
 
-      ul{
+      #slideout-nav{
         @include span-columns(12);
         padding: 0;
+        animation-duration: 1.25s;
 
         a{
-          @include span-columns(3);
-          text-align: center;
-          font-size: 45px;
-          font-weight: 200;
-          color: black;
-          text-decoration: none;
+          @include span-columns(2);
+          font-size: 20px;
+          color: $link-color;
 
           &:hover{
-            color: #5DABF8;
-            // background: black;
-            // opacity: .5;
-            // border-radius: 10px;
+            color: $link-hover-color;
           }
-        }
-      }
-    }
 
-    .brief-resume{
-      @include span-columns(12);
-
-      ul{
-        padding: 0;
-        text-align: center;
-
-        li{
-          list-style: none;
-          font-size: 24px;
-          margin-bottom: 10px;
+          &:first-of-type{
+            @include shift(2);
+          }
         }
       }
     }

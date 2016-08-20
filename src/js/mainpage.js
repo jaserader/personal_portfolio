@@ -7,32 +7,22 @@ class Mainpage extends React.Component{
   render(){
     return(
         <div id="mainpage">
-          <div id="background-image"></div>
+          <div className="background-image w3-animate-bottom"></div>
 
           <div className="landing-content">
             <div className="name-container">
-              <h1>Jase Rader</h1>
-              <h2>Front End Developer && UI Designer</h2>
+              <span className="h1">JASE RADER</span>
+              <span className="h2">Front End Developer && UI Designer</span>
             </div>
 
-            <div className="nav">
+            <div className="nav w3-animate-right">
               <ul>
-                <a href="">Portfolio</a>
-                <a href="">About</a>
-                <a href="">Resumé</a>
-                <a href="">Contact</a>
+                <a className="nav-trigger" href="#aboutpage">About</a>
+                <a className="nav-trigger" href="#portfoliopage">Portfolio</a>
+                <a className="nav-trigger" href="#resumepage">Resumé</a>
+                <a className="nav-trigger" href="#contactpage">Contact</a>
               </ul>
             </div>
-
-            <div className="brief-resume">
-              <ul>
-                <li>Completed Iron Yard Front-End Engineering Bootcamp.</li>
-                <li>Graduated from the University of Tennessee in 2011 with a degree in Business Adminsitration - Logistics.</li>
-                <li>Front-End Skills - HTML, CSS, JavaScript, jQuery, SASS, React, Backbone.js, Underscore.js, Bourbon/Neat, Git, GitHub, Command Terminal, Bower, NPM, Gulp, Adobe Illustrator, Adobe Capture</li>
-                <li>Hobbies - Wood-Working, Tech Devices, Hiking, Traveling</li>
-              </ul>
-            </div>
-
           </div>
         </div>
     )

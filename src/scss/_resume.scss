@@ -1,0 +1,92 @@
+@import 'variables';
+
+#resumepage{
+  .resume-container{
+    @include span-columns(12);
+    padding: 25px 0 50px 0;
+    margin-bottom: 25px;
+    position: absolute;
+    top: 65px;
+    z-index: 1;
+    overflow: scroll;
+
+    .resume{
+      @include span-columns(6);
+      @include shift(3);
+      background: #323731;
+      color: $white;
+      padding: 30px 20px 30px 20px;
+      border-radius: 3px;
+      animation-duration: 2.0s;
+      box-shadow: 3px 3px 3px 3px #BABABA;
+
+      #skills{
+        @include span-columns(11);
+        @include shift(.5);
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 50px;
+      }
+
+      hr{
+        @include span-columns(3);
+        @include shift(4.5);
+      }
+
+      .resume-block{
+        @include span-columns(12);
+
+        .resume-title{
+          @include span-columns(7.8);
+          @include omega(n);
+          font-size: 20px;
+          text-transform: uppercase;
+
+          &:last-of-type{
+            @include span-columns(3.8);
+            text-align: right;
+            text-transform: none;
+          }
+        }
+
+        p{
+          @include span-columns(11.70);
+          text-align: right;
+          margin: 0;
+        }
+
+        ul{
+          @include span-columns(12);
+
+          li{
+            @include span-columns(12);
+            margin-bottom: 5px;
+          }
+        }
+      }
+    }
+
+    footer{
+      @include span-columns(12);
+      position: fixed;
+      bottom: 0;
+      padding: 15px 50px 5px 0;
+      background: linear-gradient(to right, $white, $teal);
+      text-align: right;
+
+      a{
+        font-size: 24px;
+        text-decoration: none;
+        color: $link-color;
+
+        &:hover{
+          color: $link-hover-color;
+        }
+
+        i{
+          font-size: 36px;
+        }
+      }
+    }
+  }
+}
