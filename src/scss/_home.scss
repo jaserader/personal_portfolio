@@ -1,0 +1,155 @@
+@import 'variables';
+
+#mainpage{
+  @include span-columns(12);
+
+  .landing-content{
+    @include span-columns(12);
+    position: absolute;
+    z-index: 1;
+
+    .name-container{
+      @include span-columns(6);
+      text-align: center;
+      position: relative;
+      top: 100px;
+
+      .h1{
+        @include span-columns(12);
+        font-size: 110px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: 100;
+      }
+
+      .h2{
+        @include span-columns(11.75);
+        font-size: 30px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        position: relative;
+        top: -30px;
+      }
+    }
+  }
+
+  .nav{
+    @include span-columns(12);
+    background: linear-gradient(to right, $white, $teal);
+    opacity: .85;
+    position: fixed;
+    bottom: 0;
+    animation-duration: 2.75s;
+    border-top: 5px solid rgba(255,255,255, .1);
+    animation-iteration-count: 1;
+
+    ul{
+      @include span-columns(12);
+      padding: 0;
+
+      a{
+        @include span-columns(2.4);
+        text-align: center;
+        font-size: 26px;
+        font-weight: 300;
+        color: $link-color;
+        text-decoration: none;
+
+        &:hover{
+          color: $link-hover-color;
+        }
+
+        &:first-of-type{
+          @include shift(2.4);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1480px){
+  #mainpage{
+    .landing-content{
+      .name-container{
+        .h1{
+          font-size: 80px;
+        }
+
+        .h2{
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px){
+  #mainpage{
+    .landing-content{
+      .name-container{
+        @include span-columns(8);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  #mainpage{
+    .landing-content{
+      .name-container{
+        @include span-columns(12);
+        top: 200px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px){
+  #mainpage{
+    .landing-content{
+      .name-container{
+        @include span-columns(12);
+        top: 200px;
+
+        .h1{
+          font-size: 54px;
+        }
+
+        .h2{
+          font-size: 18px;
+          top: 0px;
+        }
+      }
+    }
+
+    .nav{
+      ul{
+        a{
+          @include span-columns(3);
+          font-size: 16px;
+
+          &:first-of-type{
+            @include shift(0);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 320px){
+  #mainpage{
+    .landing-content{
+      .name-container{
+        .h1{
+          font-size: 46px;
+        }
+
+        .h2{
+          font-size: 14px;
+          top: 0px;
+        }
+      }
+    }
+  }
+}
