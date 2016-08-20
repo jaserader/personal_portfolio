@@ -1,0 +1,80 @@
+@import 'variables';
+
+#portfoliopage{
+  .portfolio-container{
+    @include span-columns(12);
+    padding: 75px 0 50px 0;
+    position: absolute;
+    top: 65px;
+    z-index: 1;
+
+    .blue{
+      background: $blue;
+
+      .screen-shot{
+        background-image: url("../img/gamewisp.png");
+      }
+    }
+
+    .orange{
+      background: $orange;
+      margin-top: 300px;
+
+      .screen-shot{
+        background-image: url("../img/goals_screen.png");
+      }
+    }
+
+    .purple{
+      background: $pink;
+
+      .screen-shot{
+        background: $white;
+        background-image: url("../img/addressbook_screen.png");
+      }
+    }
+
+    .green{
+      background: $teal;
+      margin-top: 150px;
+
+      .screen-shot{
+        background: $white;
+        background-image: url("../img/github_repo.png");
+      }
+    }
+
+    .portfolio-column{
+      @include span-columns(2.5);
+      padding: 20px 0 20px 0;
+      color: $white;
+      border-radius: 3px;
+      box-shadow: 3px 3px 3px 3px #BABABA;
+      animation-duration: 2.0s;
+
+      &:first-of-type{
+        @include shift(1);
+      }
+
+      .screen-shot{
+        @include span-columns(11);
+        @include shift(.5);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 170px;
+        border-radius: 3px;
+        border: 5px solid rgba(255,255,255, .8);
+      }
+
+      .description{
+        @include span-columns(11);
+        @include shift(.5);
+
+        p{
+          @include span-columns(12);
+          text-align: justify;
+        }
+      }
+    }
+  }
+}

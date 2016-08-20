@@ -4,105 +4,6 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-* {
-  box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 200; }
-
-#app {
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto; }
-  #app::after {
-    clear: both;
-    content: "";
-    display: table; }
-  #app .background-image {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%;
-    background-image: url("../img/mountain.svg");
-    background-size: cover;
-    height: 100vh;
-    position: fixed;
-    z-index: -10000;
-    animation-duration: 3.25s; }
-    #app .background-image:last-child {
-      margin-right: 0; }
-  #app .background-filter {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%;
-    background: #fff;
-    opacity: .925;
-    padding: 75px 0 50px 0;
-    height: 100vh;
-    border-radius: 5px;
-    position: fixed;
-    top: 0px;
-    z-index: 1; }
-    #app .background-filter:last-child {
-      margin-right: 0; }
-  #app header {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%;
-    padding: 5px 0 5px 0;
-    background: linear-gradient(to right, #fff, #7DD4B6);
-    position: fixed;
-    top: 0;
-    z-index: 2; }
-    #app header:last-child {
-      margin-right: 0; }
-    #app header a {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%;
-      text-decoration: none;
-      color: #323731; }
-      #app header a:last-child {
-        margin-right: 0; }
-      #app header a .logo {
-        margin-left: 6.39735%;
-        background-image: url("../img/Jaselogo_2.png");
-        background-size: cover;
-        width: 50px;
-        height: 50px;
-        margin-top: 5px; }
-    #app header .nav {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%; }
-      #app header .nav:last-child {
-        margin-right: 0; }
-      #app header .nav #slideout-nav {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 100%;
-        padding: 0;
-        animation-duration: 1.25s; }
-        #app header .nav #slideout-nav:last-child {
-          margin-right: 0; }
-        #app header .nav #slideout-nav a {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 14.70196%;
-          font-size: 20px;
-          color: #323731; }
-          #app header .nav #slideout-nav a:last-child {
-            margin-right: 0; }
-          #app header .nav #slideout-nav a:hover {
-            color: #FD4F17; }
-          #app header .nav #slideout-nav a:first-of-type {
-            margin-left: 17.05961%; }
-
 #mainpage {
   float: left;
   display: block;
@@ -157,7 +58,7 @@ html {
     display: block;
     margin-right: 2.35765%;
     width: 100%;
-    background: linear-gradient(to right, #fff, #7DD4B6);
+    background: linear-gradient(to right, #fff, #46C9A7);
     opacity: .85;
     position: fixed;
     bottom: 0;
@@ -187,7 +88,7 @@ html {
         #mainpage .nav ul a:last-child {
           margin-right: 0; }
         #mainpage .nav ul a:hover {
-          color: #FD4F17; }
+          color: #FD8414; }
         #mainpage .nav ul a:first-of-type {
           margin-left: 20.47153%; }
 
@@ -225,17 +126,19 @@ html {
       height: 550px;
       border-radius: 3px;
       opacity: none;
-      animation-duration: 2.0s; }
+      animation-duration: 2.0s;
+      box-shadow: 3px 3px 3px 3px #BABABA; }
     #aboutpage .about-container .about-block {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 82.94039%;
-      background: #FD4F17;
+      background: #FD8414;
       color: #fff;
       padding: 20px;
       border-radius: 3px;
-      animation-duration: 2.0s; }
+      animation-duration: 2.0s;
+      box-shadow: 3px 3px 3px 3px #BABABA; }
       #aboutpage .about-container .about-block:last-child {
         margin-right: 0; }
     #aboutpage .about-container p {
@@ -248,6 +151,81 @@ html {
       text-align: justify; }
       #aboutpage .about-container p:last-child {
         margin-right: 0; }
+
+#portfoliopage .portfolio-container {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  padding: 75px 0 50px 0;
+  position: absolute;
+  top: 65px;
+  z-index: 1; }
+  #portfoliopage .portfolio-container:last-child {
+    margin-right: 0; }
+  #portfoliopage .portfolio-container .blue {
+    background: #1AA1DD; }
+    #portfoliopage .portfolio-container .blue .screen-shot {
+      background-image: url("../img/gamewisp.png"); }
+  #portfoliopage .portfolio-container .orange {
+    background: #FD8414;
+    margin-top: 300px; }
+    #portfoliopage .portfolio-container .orange .screen-shot {
+      background-image: url("../img/goals_screen.png"); }
+  #portfoliopage .portfolio-container .purple {
+    background: #EE2E7B; }
+    #portfoliopage .portfolio-container .purple .screen-shot {
+      background: #fff;
+      background-image: url("../img/addressbook_screen.png"); }
+  #portfoliopage .portfolio-container .green {
+    background: #46C9A7;
+    margin-top: 150px; }
+    #portfoliopage .portfolio-container .green .screen-shot {
+      background: #fff;
+      background-image: url("../img/github_repo.png"); }
+  #portfoliopage .portfolio-container .portfolio-column {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 18.96686%;
+    padding: 20px 0 20px 0;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px 3px #BABABA;
+    animation-duration: 2.0s; }
+    #portfoliopage .portfolio-container .portfolio-column:last-child {
+      margin-right: 0; }
+    #portfoliopage .portfolio-container .portfolio-column:first-of-type {
+      margin-left: 8.5298%; }
+    #portfoliopage .portfolio-container .portfolio-column .screen-shot {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 91.4702%;
+      margin-left: 4.2649%;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 170px;
+      border-radius: 3px;
+      border: 5px solid rgba(255, 255, 255, 0.8); }
+      #portfoliopage .portfolio-container .portfolio-column .screen-shot:last-child {
+        margin-right: 0; }
+    #portfoliopage .portfolio-container .portfolio-column .description {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 91.4702%;
+      margin-left: 4.2649%; }
+      #portfoliopage .portfolio-container .portfolio-column .description:last-child {
+        margin-right: 0; }
+      #portfoliopage .portfolio-container .portfolio-column .description p {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        text-align: justify; }
+        #portfoliopage .portfolio-container .portfolio-column .description p:last-child {
+          margin-right: 0; }
 
 #resumepage .resume-container {
   float: left;
@@ -354,7 +332,7 @@ html {
     position: fixed;
     bottom: 0;
     padding: 15px 50px 5px 0;
-    background: linear-gradient(to right, #fff, #7DD4B6);
+    background: linear-gradient(to right, #fff, #46C9A7);
     text-align: right; }
     #resumepage .resume-container footer:last-child {
       margin-right: 0; }
@@ -363,7 +341,7 @@ html {
       text-decoration: none;
       color: #323731; }
       #resumepage .resume-container footer a:hover {
-        color: #FD4F17; }
+        color: #FD8414; }
       #resumepage .resume-container footer a i {
         font-size: 36px; }
 
@@ -401,7 +379,7 @@ html {
     margin-right: 2.35765%;
     width: 48.82117%;
     margin-left: 25.58941%;
-    background: #FD4F17;
+    background: #FD8414;
     color: #fff;
     padding: 30px 20px 30px 20px;
     border-radius: 3px;
@@ -430,7 +408,7 @@ html {
     margin-right: 2.35765%;
     width: 48.82117%;
     margin-left: 25.58941%;
-    background: #58A2E4;
+    background: #1AA1DD;
     color: #fff;
     padding: 30px 20px 30px 20px;
     border-radius: 3px;
@@ -459,7 +437,7 @@ html {
     position: fixed;
     bottom: 0;
     padding: 5px 0 5px 0;
-    background: linear-gradient(to right, #fff, #7DD4B6); }
+    background: linear-gradient(to right, #fff, #46C9A7); }
     #contactpage .contact-container footer:last-child {
       margin-right: 0; }
     #contactpage .contact-container footer span {
@@ -491,18 +469,105 @@ html {
         #contactpage .contact-container footer nav a:last-child {
           margin-right: 0; }
         #contactpage .contact-container footer nav a:hover {
-          color: #FD4F17; }
+          color: #FD8414; }
         #contactpage .contact-container footer nav a:first-of-type {
           margin-left: 17.05961%; }
 
-#portfoliopage .portfolio-container {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-  padding: 75px 0 50px 0;
-  position: absolute;
-  top: 65px;
-  z-index: 1; }
-  #portfoliopage .portfolio-container:last-child {
-    margin-right: 0; }
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200; }
+
+#app {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  #app::after {
+    clear: both;
+    content: "";
+    display: table; }
+  #app .background-image {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    background-image: url("../img/mountain.svg");
+    background-size: cover;
+    height: 100vh;
+    position: fixed;
+    z-index: -10000;
+    animation-duration: 3.25s; }
+    #app .background-image:last-child {
+      margin-right: 0; }
+  #app .background-filter {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    background: #fff;
+    opacity: .925;
+    padding: 75px 0 50px 0;
+    height: 100vh;
+    border-radius: 5px;
+    position: fixed;
+    top: 0px;
+    z-index: 1; }
+    #app .background-filter:last-child {
+      margin-right: 0; }
+  #app header {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    padding: 5px 0 5px 0;
+    background: linear-gradient(to right, #fff, #46C9A7);
+    position: fixed;
+    top: 0;
+    z-index: 2; }
+    #app header:last-child {
+      margin-right: 0; }
+    #app header a {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      text-decoration: none;
+      color: #323731; }
+      #app header a:last-child {
+        margin-right: 0; }
+      #app header a .logo {
+        margin-left: 6.39735%;
+        background-image: url("../img/Jaselogo_2.png");
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        margin-top: 5px; }
+    #app header .nav {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      #app header .nav:last-child {
+        margin-right: 0; }
+      #app header .nav #slideout-nav {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        padding: 0;
+        animation-duration: 1.25s; }
+        #app header .nav #slideout-nav:last-child {
+          margin-right: 0; }
+        #app header .nav #slideout-nav a {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 14.70196%;
+          font-size: 20px;
+          color: #323731; }
+          #app header .nav #slideout-nav a:last-child {
+            margin-right: 0; }
+          #app header .nav #slideout-nav a:hover {
+            color: #FD8414; }
+          #app header .nav #slideout-nav a:first-of-type {
+            margin-left: 17.05961%; }

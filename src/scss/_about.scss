@@ -1,0 +1,47 @@
+@import 'variables';
+
+#aboutpage{
+  @include span-columns(12);
+
+  .about-container{
+    @include span-columns(10);
+    @include shift(1);
+    padding: 150px 0 50px 0;
+    position: absolute;
+    top: 65px;
+    z-index: 1;
+
+    .column{
+      @include span-columns(6);
+    }
+
+    .headshot{
+      @include shift(3.25);
+      background-image: url("../img/new_headshot_bw.jpg");
+      background-size: cover;
+      width: 370px;
+      height: 550px;
+      border-radius: 3px;
+      opacity: none;
+      animation-duration: 2.0s;
+      box-shadow: 3px 3px 3px 3px #BABABA;
+    }
+
+    .about-block{
+      @include span-columns(10);
+      background: $orange;
+      color: $white;
+      padding: 20px;
+      border-radius: 3px;
+      animation-duration: 2.0s;
+      box-shadow: 3px 3px 3px 3px #BABABA;
+    }
+
+    p{
+      @include span-columns(12);
+      font-size: 20px;
+      margin: 0 0 30px 0;
+      text-align: justify;
+    }
+  }
+}
