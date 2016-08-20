@@ -66,3 +66,90 @@
     }
   }
 }
+
+@media screen and (max-width: 1480px){
+  #mainpage{
+    .landing-content{
+      .name-container{
+        .h1{
+          font-size: 80px;
+        }
+
+        .h2{
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px){
+  #mainpage{
+    .landing-content{
+      .name-container{
+        @include span-columns(8);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  #mainpage{
+    .landing-content{
+      .name-container{
+        @include span-columns(12);
+        top: 200px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px){
+  #mainpage{
+    .landing-content{
+      .name-container{
+        @include span-columns(12);
+        top: 200px;
+
+        .h1{
+          font-size: 54px;
+        }
+
+        .h2{
+          font-size: 18px;
+          top: 0px;
+        }
+      }
+    }
+
+    .nav{
+      ul{
+        a{
+          @include span-columns(3);
+          font-size: 16px;
+
+          &:first-of-type{
+            @include shift(0);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 320px){
+  #mainpage{
+    .landing-content{
+      .name-container{
+        .h1{
+          font-size: 46px;
+        }
+
+        .h2{
+          font-size: 14px;
+          top: 0px;
+        }
+      }
+    }
+  }
+}

@@ -16,7 +16,7 @@
     }
 
     .headshot{
-      @include shift(3.25);
+      @include shift(4);
       background-image: url("../img/new_headshot_bw.jpg");
       background-size: cover;
       width: 370px;
@@ -44,4 +44,8 @@
       text-align: justify;
     }
   }
+}
+
+@media screen and (max-width: 320px){
+
 }

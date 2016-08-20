@@ -12,7 +12,9 @@
       background: $blue;
 
       .screen-shot{
-        background-image: url("../img/gamewisp.png");
+        img{
+          background-image: url("../img/gamewisp.png");
+        }
       }
     }
 
@@ -21,7 +23,9 @@
       margin-top: 300px;
 
       .screen-shot{
-        background-image: url("../img/goals_screen.png");
+        img{
+          background-image: url("../img/goals_screen.png");
+        }
       }
     }
 
@@ -29,8 +33,9 @@
       background: $pink;
 
       .screen-shot{
-        background: $white;
-        background-image: url("../img/addressbook_screen.png");
+        img{
+          background-image: url("../img/addressbook_screen.png");
+        }
       }
     }
 
@@ -39,8 +44,9 @@
       margin-top: 150px;
 
       .screen-shot{
-        background: $white;
-        background-image: url("../img/github_repo.png");
+        img{
+          background-image: url("../img/github_repo.png");
+        }
       }
     }
 
@@ -64,6 +70,12 @@
         height: 170px;
         border-radius: 3px;
         border: 5px solid rgba(255,255,255, .8);
+
+        img{
+          @include span-columns(12);
+          height: 100%;
+          background-size: cover;
+        }
       }
 
       .description{
@@ -73,6 +85,33 @@
         p{
           @include span-columns(12);
           text-align: justify;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1500px){
+  #portfoliopage{
+    .portfolio-container{
+
+      .orange,
+      .green{
+        margin-top: 0px;
+      }
+
+      .portfolio-column{
+        @include span-columns(4);
+        @include omega(2n);
+        height: 350px;
+        margin-bottom: 20px;
+
+        &:first-of-type{
+          @include shift(2);
+        }
+
+        &:nth-of-type(3n){
+          @include shift(2);
         }
       }
     }
